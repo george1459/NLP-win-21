@@ -1,0 +1,11 @@
+*.pyc
+*.log
+*.out
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+*.DS_Store
+data

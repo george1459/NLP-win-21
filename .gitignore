@@ -1,1 +1,17 @@
 *un~
+
+# Mallet related
+mallet*
+
+# Idea relations
+idea_relations/*.pyc
+idea_relations/*.log
+idea_relations/*.out
+idea_relations/*.aux
+idea_relations/*.fdb_latexmk
+idea_relations/*.fls
+idea_relations/*.synctex.gz
+idea_relations/*.bbl
+idea_relations/*.blg
+idea_relations/*.DS_Store
+idea_relations/data
