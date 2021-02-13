@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[]{amsthm} %lets us use \begin{proof}
+\usepackage[]{amssymb} %gives us the character \varnothing
+\usepackage{amsmath}
+%\usepackage[shortlabels]{enumitem}
+%\usepackage{CJKutf8}
+\usepackage{float}
+\usepackage{booktabs}
+
+\title{NLP Final Project: A Literature Review}
+\author{Qitian Hu, Shicheng Liu, Yijie Yao}
+
+\linespread{1.5}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{graphicx}
+
+\begin{document}
+\maketitle 
+
+\section{Minimal Requirement}
+
+
+\section{Related Ideas and Methodological Extension}
+
+
+There are a lot of ways by which we could build on the existing paper, and in this section I outline several directions we would like to explore.
+
+\subsection{Other ways of finding ideas}
+
+While the original paper provides us an interesting framework of analyzing the relation between ideas, it has used the standard topic modeling (LDA) to identify ideas. We think there are several weak points that it could be modified:
+
+\begin{enumerate}
+  \item There are randomness involved in this process and the topics we identify rely on the training process and random seed.
+  \item We cannot incorporate prior knowledge on the corpus and the ideas in it. Since topic modeling is an unsupervised method, we cannot be sure that we will guaranteed to have some topics that we're interested in. 
+  \item For those corpus that their own structure, focus, and topic change a lot through time, it might be unable to capture this shift, and we may have some topics that are only present in the early times and some present only in the late times.
+\end{enumerate}
+
+With the help of Chenhao, we identified several possible alternatives that we will explore.
+
+\begin{enumerate}
+  \item Topic modeling with neural networks. This is Chenhao's own work and allows us to incorporate metadata (like date) into topic modeling. \cite{chenhao}
+  \item Interactive topic modeling. \cite{interactive} This method seems to be able to add contextual information to the documents and perform more directed topic modeling. There are a number of seminal papers on this method and we will explore them to see which one is the most ready-to-use for our purpose. \cite{interactivec} \cite{interactiveb}
+\end{enumerate}  
+
+
+
+\subsection{Other Corpus}
+
+In addition to the corpus in the original paper, we find that the corpus People's Daily is also open and available online. People's Daily is a national newspaper in China, and is directly controlled by the Communist Party. Established in 1946, it is probably the most authoritative representation of the government's self-perception, policy, and ideology. We think it would be interesting to use the framework of idea relations to see the change of popular ideas and arguments in the history of modern China. 
+
+One thing that might be worth noting is that while the existing applications of this framework are mostly about a collection of texts produced by different entities, People's Daily is written by one centralized institute. Should we incorporate other entities and newspapers? Can we still use the regular interpretations of two ideas 'competing' with each other as in Chenhao's original paper?
+
+
+
+\section{Possible Research Questions}
+
+
+
+
+
+
+
+\begin{thebibliography}{999}
+%\bibitem{asf}
+%  cite if needed
+ 
+ \bibitem{chenhao}
+Card, Dallas, Chenhao Tan, and Noah A. Smith. "Neural models for documents with metadata." arXiv preprint arXiv:1705.09296 (2017).
+
+\bibitem{interactive}
+Demszky, Dorottya, et al. "Analyzing polarization in social media: Method and application to tweets on 21 mass shootings." arXiv preprint arXiv:1904.01596 (2019).
+
+\bibitem{interactiveb}
+https://arxiv.org/pdf/1206.3298.pdf
+
+\bibitem{interactivec}
+https://dl.acm.org/doi/10.1145/1143844.1143859
+ 
+\end{thebibliography}
+
+
+
+
+
+
+
+
+\end{document}

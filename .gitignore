@@ -15,3 +15,6 @@ idea_relations/*.bbl
 idea_relations/*.blg
 idea_relations/*.DS_Store
 idea_relations/data
+
+
+.DS_Store
