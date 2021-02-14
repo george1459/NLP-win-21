@@ -2,6 +2,7 @@
 
 # Mallet related
 mallet*
+._mallet-2.0.8
 
 # Idea relations
 idea_relations/*.pyc
@@ -16,5 +17,17 @@ idea_relations/*.blg
 idea_relations/*.DS_Store
 idea_relations/data
 
+# Idea relations output
+idea_relations/acl_example/
+idea_relations/acl_example/
+idea_relations/acl_example/
+idea_relations/nips_example/
+
+# Latex-related (Shicheng's side)
+Reports/*.aux
+Reports/*.fdb_latexmk
+Reports/*.fls
+Reports/*.log
+Reports/*.synctex.gz
 
 .DS_Store
