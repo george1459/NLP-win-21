@@ -1,0 +1,53 @@
+\begin{tabular}{cccp{5cm}p{5cm}}
+\toprule
+combined & pmi & correlation & first & second\\
+\midrule
+\multicolumn{5}{c}{friends}\\
+0.999 & 1.335 & 0.748 & entity & entities \\
+0.925 & 1.324 & 0.699 & mt & translations \\
+0.902 & 1.038 & 0.869 & alignment & mt \\
+0.825 & 0.906 & 0.912 & chinese & mt \\
+0.821 & 1.045 & 0.786 & alignment & translations \\
+0.656 & 0.692 & 0.948 & alignment & chinese \\
+0.652 & 0.846 & 0.771 & answer & questions \\
+0.628 & 0.663 & 0.946 & annotated & annotation \\
+0.617 & 0.648 & 0.951 & documents & web \\
+0.596 & 0.796 & 0.749 & chinese & translations \\
+\midrule
+\multicolumn{5}{c}{head-to-head}\\
+0.769 & -0.919 & -0.837 & grammar & documents \\
+0.556 & -0.702 & -0.792 & grammar & web \\
+0.513 & -0.675 & -0.760 & grammar & document \\
+0.447 & -0.615 & -0.726 & grammar & similarity \\
+0.277 & -0.489 & -0.565 & argument & chinese \\
+0.273 & -0.453 & -0.601 & rule & documents \\
+0.258 & -0.489 & -0.529 & alignment & argument \\
+0.242 & -0.406 & -0.596 & argument & mt \\
+0.234 & -0.282 & -0.832 & grammar & precision \\
+0.231 & -0.491 & -0.471 & np & documents \\
+\midrule
+\multicolumn{5}{c}{arms-race}\\
+-0.356 & -0.702 & 0.507 & entity & translations \\
+-0.343 & -0.496 & 0.692 & topic & mt \\
+-0.209 & -0.434 & 0.482 & translation & entity \\
+-0.205 & -0.715 & 0.286 & entity & mt \\
+-0.196 & -0.301 & 0.650 & topic & translations \\
+-0.190 & -0.226 & 0.839 & annotation & mt \\
+-0.181 & -0.297 & 0.610 & tag & translations \\
+-0.171 & -0.290 & 0.589 & translation & topic \\
+-0.165 & -0.312 & 0.529 & languages & entities \\
+-0.153 & -0.212 & 0.724 & annotation & translations \\
+\midrule
+\multicolumn{5}{c}{tryst}\\
+-0.122 & 0.211 & -0.575 & verb & annotation \\
+-0.121 & 0.456 & -0.266 & phrase & mt \\
+-0.110 & 0.295 & -0.373 & documents & user \\
+-0.107 & 0.403 & -0.266 & user & web \\
+-0.106 & 0.189 & -0.563 & user & automatically \\
+-0.102 & 0.344 & -0.295 & document & user \\
+-0.095 & 0.158 & -0.601 & argument & annotation \\
+-0.094 & 0.178 & -0.530 & rule & mt \\
+-0.091 & 0.244 & -0.372 & annotation & parser \\
+-0.086 & 0.199 & -0.433 & annotated & verb \\
+\bottomrule
+\end{tabular}

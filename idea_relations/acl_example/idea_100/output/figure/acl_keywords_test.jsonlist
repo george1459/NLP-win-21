@@ -1,0 +1,3 @@
+{"k2": 483.9344648339804, "p-value": 8.221785835335335e-106, "name": "correlation normality test"}
+{"k2": 1141.1275607041807, "p-value": 1.611753489804156e-248, "name": "PMI normality test"}
+{"p-value": 6.423572545776212e-244, "name": "correlation between correlation and PMI", "coef": 0.44874074012508947}

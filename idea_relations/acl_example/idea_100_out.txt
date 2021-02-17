@@ -1,0 +1,451 @@
+
+Bad key "legend.title_fontsize" on line 22 in
+/home/georgejar/.config/matplotlib/stylelib/notebook.mplstyle.
+You probably need to get an updated matplotlibrc file from
+http://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+or from the matplotlib source distribution
+INFO:root:using keywords to represent ideas
+/home/georgejar/miniconda3/envs/idea_relations/lib/python2.7/site-packages/seaborn/axisgrid.py:1672: UserWarning: The `size` parameter has been renamed to `height`; pleaes update your code.
+  warnings.warn(msg, UserWarning)
+/home/georgejar/miniconda3/envs/idea_relations/lib/python2.7/site-packages/seaborn/axisgrid.py:1847: UserWarning: JointGrid annotation is deprecated and will be removed in a future release.
+  warnings.warn(UserWarning(msg))
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/georgejar/Downloads/NLP/NLP-win-21/idea_relations/acl_example/idea_100/o
+utput/acl_keywords_main.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+No file acl_keywords_main.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]\OT1/ptm/m/n/10 (e) |Head-to-head
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\OT1/ptm/m/n/10 (f) |Head-to-head
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]\OT1/ptm/m/n/10 (g) |Head-to-head
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\OT1/ptm/m/n/10 (h) |Head-to-head
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figure/acl_keywords_jo
+int_plot.pdf> <./figure/acl_keywords_average_top_25.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_average_top_25.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [2 <./figure/acl_keywords_friends_entity_entities.pdf> <./figure/acl_keyword
+s_friends_mt_translations.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_friends_mt_translations.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_friends_alignment_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_friends_alignment_mt.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_friends_document_documents.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_friends_document_documents
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_head-to-head_grammar_documents.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_docum
+ents.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+> <./figure/acl_keywords_head-to-head_grammar_web.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_web.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_head-to-head_grammar_document.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_docum
+ent.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figure/acl_keywords_head-to-head_grammar_similarity.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_simil
+arity.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+> <./figure/acl_keywords_arms-race_entity_translations.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_entity_translati
+ons.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figure/acl_keywords_arms-race_topic_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_topic_mt.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_arms-race_translation_entity.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_translation_enti
+ty.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+> <./figure/acl_keywords_arms-race_entity_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_entity_mt.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_verb_annotation.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_verb_annotation.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_phrase_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_phrase_mt.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_documents_user.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_documents_user.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_user_web.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_user_web.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] (./table/acl_keywords_top_five.tex)
+Overfull \hbox (71.39886pt too wide) in paragraph at lines 1--178
+ [][] 
+[3] (./acl_keywords_main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on acl_keywords_main.pdf (3 pages, 133535 bytes).
+Transcript written on acl_keywords_main.log.
+I couldn't open file name `/home/georgejar/Downloads/NLP/NLP-win-21/idea_relations/acl_example/idea_100/output/acl_keywords_main.tex.aux'
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/georgejar/Downloads/NLP/NLP-win-21/idea_relations/acl_example/idea_100/o
+utput/acl_keywords_main.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(./acl_keywords_main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]\OT1/ptm/m/n/10 (e) |Head-to-head
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\OT1/ptm/m/n/10 (f) |Head-to-head
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]\OT1/ptm/m/n/10 (g) |Head-to-head
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\OT1/ptm/m/n/10 (h) |Head-to-head
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figure/acl_keywords_jo
+int_plot.pdf> <./figure/acl_keywords_average_top_25.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_average_top_25.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [2 <./figure/acl_keywords_friends_entity_entities.pdf> <./figure/acl_keyword
+s_friends_mt_translations.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_friends_mt_translations.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_friends_alignment_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_friends_alignment_mt.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_friends_document_documents.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_friends_document_documents
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_head-to-head_grammar_documents.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_docum
+ents.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+> <./figure/acl_keywords_head-to-head_grammar_web.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_web.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_head-to-head_grammar_document.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_docum
+ent.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figure/acl_keywords_head-to-head_grammar_similarity.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_simil
+arity.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+> <./figure/acl_keywords_arms-race_entity_translations.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_entity_translati
+ons.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figure/acl_keywords_arms-race_topic_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_topic_mt.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_arms-race_translation_entity.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_translation_enti
+ty.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+> <./figure/acl_keywords_arms-race_entity_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_entity_mt.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_verb_annotation.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_verb_annotation.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_phrase_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_phrase_mt.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_documents_user.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_documents_user.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_user_web.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_user_web.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] (./table/acl_keywords_top_five.tex)
+Overfull \hbox (71.39886pt too wide) in paragraph at lines 1--178
+ [][] 
+[3] (./acl_keywords_main.aux) )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on acl_keywords_main.pdf (3 pages, 133535 bytes).
+Transcript written on acl_keywords_main.log.
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/georgejar/Downloads/NLP/NLP-win-21/idea_relations/acl_example/idea_100/o
+utput/acl_keywords_main.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(./acl_keywords_main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]\OT1/ptm/m/n/10 (e) |Head-to-head
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\OT1/ptm/m/n/10 (f) |Head-to-head
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]\OT1/ptm/m/n/10 (g) |Head-to-head
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\OT1/ptm/m/n/10 (h) |Head-to-head
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figure/acl_keywords_jo
+int_plot.pdf> <./figure/acl_keywords_average_top_25.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_average_top_25.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [2 <./figure/acl_keywords_friends_entity_entities.pdf> <./figure/acl_keyword
+s_friends_mt_translations.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_friends_mt_translations.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_friends_alignment_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_friends_alignment_mt.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_friends_document_documents.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_friends_document_documents
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_head-to-head_grammar_documents.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_docum
+ents.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+> <./figure/acl_keywords_head-to-head_grammar_web.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_web.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_head-to-head_grammar_document.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_docum
+ent.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figure/acl_keywords_head-to-head_grammar_similarity.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_head-to-head_grammar_simil
+arity.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+> <./figure/acl_keywords_arms-race_entity_translations.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_entity_translati
+ons.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figure/acl_keywords_arms-race_topic_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_topic_mt.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_arms-race_translation_entity.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_translation_enti
+ty.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+> <./figure/acl_keywords_arms-race_entity_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_arms-race_entity_mt.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_verb_annotation.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_verb_annotation.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_phrase_mt.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_phrase_mt.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_documents_user.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_documents_user.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./figure/acl_keywords_tryst_user_web.pdf
+
+pdfTeX warning: pdflatex (file ./figure/acl_keywords_tryst_user_web.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] (./table/acl_keywords_top_five.tex)
+Overfull \hbox (71.39886pt too wide) in paragraph at lines 1--178
+ [][] 
+[3] (./acl_keywords_main.aux) )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on acl_keywords_main.pdf (3 pages, 133535 bytes).
+Transcript written on acl_keywords_main.log.

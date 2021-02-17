@@ -1,0 +1,33 @@
+\begin{tabular}{cccp{5cm}p{5cm}}
+\toprule
+combined & pmi & correlation & first & second\\
+\midrule
+\multicolumn{5}{c}{friends}\\
+0.998 & 1.174 & 0.850 & alignment, word, alignments, aligned, sentence, pairs, paraphrases, words, paraphrase, pair & translation, phrase, source, statistical machine, translation., system, mt, target, reordering, sentence \\
+0.601 & 0.765 & 0.786 & rules, rule, rules., derivation, rules, , set, figure, derivations, forest, synchronous & grammar, parsing, parser, grammars, category, parse, categories, grammar., rules, lexical \\
+0.585 & 0.675 & 0.867 & sentiment, opinion, positive, negative, polarity, reviews, review, words, aspect, product & topic, document, documents, topics, words, term, lda, text, terms, number \\
+0.516 & 0.757 & 0.681 & dependency, parsing, parser, head, dependencies, word, tree, parsers, accuracy, proceedings & parsing, parser, syntactic, parse, sentences, proceedings, sentence, results, constituent, np \\
+0.501 & 0.741 & 0.676 & object, attribute, attributes, objects, visual, image, set, images, descriptions, properties & user, dialogue, system, utterance, action, plan, utterances, actions, task, agent \\
+\midrule
+\multicolumn{5}{c}{head-to-head}\\
+0.969 & -1.166 & -0.831 & topic, document, documents, topics, words, term, lda, text, terms, number & grammar, parsing, parser, grammars, category, parse, categories, grammar., rules, lexical \\
+0.799 & -1.047 & -0.763 & sentiment, opinion, positive, negative, polarity, reviews, review, words, aspect, product & grammar, parsing, parser, grammars, category, parse, categories, grammar., rules, lexical \\
+0.764 & -0.982 & -0.778 & discourse, text, structure, relations, two, coherence, relation, focus, discourse., cue & translation, phrase, source, statistical machine, translation., system, mt, target, reordering, sentence \\
+0.735 & -0.798 & -0.921 & representation, semantic, interpretation, sentence, one, must, may, linguistic, semantics, language & translation, phrase, source, statistical machine, translation., system, mt, target, reordering, sentence \\
+0.731 & -1.015 & -0.720 & user, dialogue, system, utterance, action, plan, utterances, actions, task, agent & dependency, parsing, parser, head, dependencies, word, tree, parsers, accuracy, proceedings \\
+\midrule
+\multicolumn{5}{c}{arms-race}\\
+-0.963 & -1.157 & 0.832 & sentiment, opinion, positive, negative, polarity, reviews, review, words, aspect, product & translation, phrase, source, statistical machine, translation., system, mt, target, reordering, sentence \\
+-0.606 & -0.720 & 0.841 & topic, document, documents, topics, words, term, lda, text, terms, number & dependency, parsing, parser, head, dependencies, word, tree, parsers, accuracy, proceedings \\
+-0.561 & -0.810 & 0.692 & sentiment, opinion, positive, negative, polarity, reviews, review, words, aspect, product & alignment, word, alignments, aligned, sentence, pairs, paraphrases, words, paraphrase, pair \\
+-0.539 & -0.621 & 0.867 & entity, entities, name, named entity, mention, wikipedia, mentions, information, ner, ne & translation, phrase, source, statistical machine, translation., system, mt, target, reordering, sentence \\
+-0.442 & -0.613 & 0.722 & topic, document, documents, topics, words, term, lda, text, terms, number & parsing, parser, syntactic, parse, sentences, proceedings, sentence, results, constituent, np \\
+\midrule
+\multicolumn{5}{c}{tryst}\\
+-0.380 & 0.532 & -0.715 & grammar, parsing, parser, grammars, category, parse, categories, grammar., rules, lexical & parsing, parser, syntactic, parse, sentences, proceedings, sentence, results, constituent, np \\
+-0.289 & 0.383 & -0.755 & dependency, parsing, parser, head, dependencies, word, tree, parsers, accuracy, proceedings & verb, syntactic, phrase, noun, case, head, verbs, sentence, structure, semantic \\
+-0.274 & 0.524 & -0.523 & rules, rule, rules., derivation, rules, , set, figure, derivations, forest, synchronous & translation, phrase, source, statistical machine, translation., system, mt, target, reordering, sentence \\
+-0.233 & 0.349 & -0.667 & parsing, parser, syntactic, parse, sentences, proceedings, sentence, results, constituent, np & verb, syntactic, phrase, noun, case, head, verbs, sentence, structure, semantic \\
+-0.227 & 0.502 & -0.453 & discourse, text, structure, relations, two, coherence, relation, focus, discourse., cue & sentence, sentences, summary, summarization, sentences., summaries, using, text, system, sentence. \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,200 @@
+friends	0.998132	1.174419	0.849895	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+head-to-head	0.969180	-1.165822	-0.831327	topic,document,documents,topics,words,term,lda,text,terms,number	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+arms-race	-0.962654	-1.157428	0.831719	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+head-to-head	0.822361	-1.028173	-0.799828	training,features,learning,set,feature,proc.,use,discriminative,model,used	ion,ing,th,le,de,ly,la,ty,te,ions
+head-to-head	0.799209	-1.047162	-0.763215	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+head-to-head	0.774400	-1.208016	-0.641051	proceedings,association,pages,conference,et al,,computational linguistics.,natural language,2010.,meeting,2009.	ion,ing,th,le,de,ly,la,ty,te,ions
+head-to-head	0.764306	-0.982199	-0.778158	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+head-to-head	0.734930	-0.798268	-0.920655	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+head-to-head	0.731379	-1.015114	-0.720490	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+head-to-head	0.675296	-0.736128	-0.917362	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	training,features,learning,set,feature,proc.,use,discriminative,model,used
+head-to-head	0.655500	-0.816737	-0.802584	ion,ing,th,le,de,ly,la,ty,te,ions	data,labeled,training,learning,domain,supervised,set,examples,target,using
+head-to-head	0.622084	-0.740554	-0.840024	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence	ion,ing,th,le,de,ly,la,ty,te,ions
+arms-race	-0.606047	-0.720372	0.841297	topic,document,documents,topics,words,term,lda,text,terms,number	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+head-to-head	0.603231	-0.779714	-0.773657	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+friends	0.601148	0.764856	0.785962	rules,rule,rules.,derivation,rules,,set,figure,derivations,forest,synchronous	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+friends	0.585496	0.675426	0.866855	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	topic,document,documents,topics,words,term,lda,text,terms,number
+head-to-head	0.584639	-0.631912	-0.925190	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair
+head-to-head	0.583221	-0.694473	-0.839804	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	ion,ing,th,le,de,ly,la,ty,te,ions
+head-to-head	0.582665	-0.748607	-0.778332	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+head-to-head	0.563729	-0.939070	-0.600306	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+arms-race	-0.561023	-0.810220	0.692433	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair
+head-to-head	0.553584	-0.730013	-0.758321	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent
+head-to-head	0.544972	-0.959059	-0.568235	rules,rule,rules.,derivation,rules,,set,figure,derivations,forest,synchronous	topic,document,documents,topics,words,term,lda,text,terms,number
+head-to-head	0.539240	-0.558804	-0.964990	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	data,labeled,training,learning,domain,supervised,set,examples,target,using
+arms-race	-0.538574	-0.621412	0.866694	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+head-to-head	0.529665	-0.645015	-0.821167	features,feature,classification,using,features.,classifier,set,training,used,features,	ion,ing,th,le,de,ly,la,ty,te,ions
+friends	0.517578	0.602093	0.859632	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	ion,ing,th,le,de,ly,la,ty,te,ions
+friends	0.515912	0.757381	0.681179	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+head-to-head	0.515032	-0.714895	-0.720431	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+head-to-head	0.510774	-1.014744	-0.503353	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+friends	0.501110	0.741294	0.675993	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent
+head-to-head	0.488791	-0.591233	-0.826732	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent
+head-to-head	0.488653	-0.646979	-0.755285	distribution,probability,model,unsupervised,parameters,learning,prior,em,distributions,number	ion,ing,th,le,de,ly,la,ty,te,ions
+friends	0.480802	0.582916	0.824823	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	patterns,extraction,pattern,pairs,precision,extracted,web,set,terms,instances
+friends	0.461365	0.546290	0.844541	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	data,labeled,training,learning,domain,supervised,set,examples,target,using
+head-to-head	0.460598	-0.546848	-0.842279	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical	data,labeled,training,learning,domain,supervised,set,examples,target,using
+friends	0.458884	0.610362	0.751822	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	patterns,extraction,pattern,pairs,precision,extracted,web,set,terms,instances
+head-to-head	0.455476	-0.546612	-0.833272	score,scores,evaluation,measure,measures,human,average,different,results,similarity	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+head-to-head	0.449795	-0.589788	-0.762638	topic,document,documents,topics,words,term,lda,text,terms,number	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+head-to-head	0.442827	-0.602799	-0.734618	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings	ion,ing,th,le,de,ly,la,ty,te,ions
+arms-race	-0.442448	-0.613030	0.721739	topic,document,documents,topics,words,term,lda,text,terms,number	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+friends	0.436209	0.484599	0.900144	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+friends	0.426779	0.846929	0.503913	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair	english,language,translation,target,languages,source,bilingual,parallel,monolingual,translations
+head-to-head	0.425781	-0.558219	-0.762749	model,models,model.,model,,models.,word,language,probability,models,,modeling	ion,ing,th,le,de,ly,la,ty,te,ions
+head-to-head	0.425064	-0.537074	-0.791444	topic,document,documents,topics,words,term,lda,text,terms,number	set,feature,two,let,definition,defined,every,form,following,order
+friends	0.412715	0.486480	0.848369	set,feature,two,let,definition,defined,every,form,following,order	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+head-to-head	0.404643	-0.598191	-0.676443	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue	training,features,learning,set,feature,proc.,use,discriminative,model,used
+head-to-head	0.402301	-0.606865	-0.662917	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent	training,features,learning,set,feature,proc.,use,discriminative,model,used
+friends	0.397966	0.868291	0.458333	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	text,tweets,user,users,social,data,twitter,information,use,time
+head-to-head	0.395232	-0.553342	-0.714264	topic,document,documents,topics,words,term,lda,text,terms,number	ion,ing,th,le,de,ly,la,ty,te,ions
+head-to-head	0.392152	-0.640953	-0.611826	rules,rule,rules.,derivation,rules,,set,figure,derivations,forest,synchronous	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity
+friends	0.390903	0.486220	0.803963	topic,document,documents,topics,words,term,lda,text,terms,number	vector,semantic,vectors,similarity,word,representation,representations,matrix,kernel,space
+friends	0.389857	0.673944	0.578471	rules,rule,rules.,derivation,rules,,set,figure,derivations,forest,synchronous	tree,node,nodes,trees,structure,figure,root,tree.,subtree,structures
+head-to-head	0.389354	-0.481630	-0.808409	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	set,feature,two,let,definition,defined,every,form,following,order
+friends	0.388784	0.521360	0.745710	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent
+friends	0.388240	0.542173	0.716081	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens	segmentation,chinese,word,character,segment,boundary,segments,characters,boundaries,segmentation.
+head-to-head	0.388137	-0.458343	-0.846826	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	training,data,language,using,set,test,used,corpus,probability,results
+head-to-head	0.387510	-0.489088	-0.792311	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np	ion,ing,th,le,de,ly,la,ty,te,ions
+friends	0.383268	0.452929	0.846199	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+friends	0.381491	0.925870	0.412035	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue	coreference,antecedent,system,coreference resolution,np,mention,mentions,resolution,pronoun,pronouns
+head-to-head	0.381415	-0.473989	-0.804692	training,features,learning,set,feature,proc.,use,discriminative,model,used	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+tryst	-0.380075	0.531624	-0.714932	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+head-to-head	0.379553	-0.493902	-0.768477	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent	training,data,language,using,set,test,used,corpus,probability,results
+friends	0.374231	0.397933	0.940438	training,features,learning,set,feature,proc.,use,discriminative,model,used	data,labeled,training,learning,domain,supervised,set,examples,target,using
+friends	0.373809	0.401848	0.930223	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	proceedings,association,pages,conference,et al,,computational linguistics.,natural language,2010.,meeting,2009.
+head-to-head	0.373528	-0.429717	-0.869242	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+head-to-head	0.371187	-0.527243	-0.704015	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical	vector,semantic,vectors,similarity,word,representation,representations,matrix,kernel,space
+head-to-head	0.370154	-0.483058	-0.766273	patterns,extraction,pattern,pairs,precision,extracted,web,set,terms,instances	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+friends	0.368759	0.538014	0.685408	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent	ion,ing,th,le,de,ly,la,ty,te,ions
+head-to-head	0.367257	-0.794250	-0.462394	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	state,states,input,sequence,stack,transition,lattice,path,search,figure
+friends	0.361573	0.401645	0.900229	training,features,learning,set,feature,proc.,use,discriminative,model,used	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+friends	0.360985	0.524494	0.688254	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical	ion,ing,th,le,de,ly,la,ty,te,ions
+head-to-head	0.355768	-0.466132	-0.763236	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties	training,data,language,using,set,test,used,corpus,probability,results
+friends	0.350034	0.743408	0.470851	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame	coreference,antecedent,system,coreference resolution,np,mention,mentions,resolution,pronoun,pronouns
+friends	0.347830	0.391158	0.889232	training,features,learning,set,feature,proc.,use,discriminative,model,used	distribution,probability,model,unsupervised,parameters,learning,prior,em,distributions,number
+arms-race	-0.346939	-0.444980	0.779673	topic,document,documents,topics,words,term,lda,text,terms,number	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair
+friends	0.346560	0.417652	0.829782	topic,document,documents,topics,words,term,lda,text,terms,number	score,scores,evaluation,measure,measures,human,average,different,results,similarity
+friends	0.344702	0.374725	0.919880	model,models,model.,model,,models.,word,language,probability,models,,modeling	distribution,probability,model,unsupervised,parameters,learning,prior,em,distributions,number
+friends	0.344333	0.468682	0.734685	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+friends	0.342760	0.367086	0.933731	training,features,learning,set,feature,proc.,use,discriminative,model,used	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+friends	0.337687	0.443888	0.760748	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair	segmentation,chinese,word,character,segment,boundary,segments,characters,boundaries,segmentation.
+head-to-head	0.336863	-0.514289	-0.655007	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent	vector,semantic,vectors,similarity,word,representation,representations,matrix,kernel,space
+head-to-head	0.335665	-0.510458	-0.657577	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair
+friends	0.335362	0.380791	0.880699	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	data,labeled,training,learning,domain,supervised,set,examples,target,using
+friends	0.334998	0.389982	0.859009	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+head-to-head	0.333210	-0.492745	-0.676233	training,data,language,using,set,test,used,corpus,probability,results	ion,ing,th,le,de,ly,la,ty,te,ions
+head-to-head	0.331171	-0.424418	-0.780295	patterns,extraction,pattern,pairs,precision,extracted,web,set,terms,instances	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent
+head-to-head	0.329365	-0.468046	-0.703703	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens	ion,ing,th,le,de,ly,la,ty,te,ions
+friends	0.328844	0.482655	0.681323	topic,document,documents,topics,words,term,lda,text,terms,number	sentence,sentences,summary,summarization,sentences.,summaries,using,text,system,sentence.
+head-to-head	0.328677	-0.462189	-0.711132	score,scores,evaluation,measure,measures,human,average,different,results,similarity	ion,ing,th,le,de,ly,la,ty,te,ions
+friends	0.327738	0.392535	0.834927	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+arms-race	-0.327415	-0.590875	0.554120	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+head-to-head	0.327173	-0.437771	-0.747361	method,two,proposed,based,methods,candidate,one,different,table,performance	ion,ing,th,le,de,ly,la,ty,te,ions
+friends	0.326581	0.350784	0.931003	features,feature,classification,using,features.,classifier,set,training,used,features,	data,labeled,training,learning,domain,supervised,set,examples,target,using
+friends	0.324195	0.464808	0.697482	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue
+friends	0.322890	0.436206	0.740223	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	word,words,context,words.,words,,lexical,used,frequency,method,word.
+friends	0.321729	0.532138	0.604597	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	sentence,sentences,summary,summarization,sentences.,summaries,using,text,system,sentence.
+friends	0.316024	0.393062	0.804005	vector,semantic,vectors,similarity,word,representation,representations,matrix,kernel,space	graph,clustering,cluster,clusters,edges,edge,nodes,algorithm,two,set
+friends	0.314807	0.435273	0.723239	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	features,feature,classification,using,features.,classifier,set,training,used,features,
+friends	0.311816	0.724073	0.430641	relation,relations,semantic,type,relations.,two,learning,set,types,using	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame
+friends	0.307444	1.006385	0.305493	transliteration,english,language,string,character,letter,strings,system,phonetic,word	morphological,lexicon,word,words,arabic,morphology,forms,form,morpheme,stem
+friends	0.304993	0.610139	0.499874	tree,node,nodes,trees,structure,figure,root,tree.,subtree,structures	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+friends	0.304642	0.355830	0.856147	topic,document,documents,topics,words,term,lda,text,terms,number	distribution,probability,model,unsupervised,parameters,learning,prior,em,distributions,number
+friends	0.302966	0.415353	0.729420	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	graph,clustering,cluster,clusters,edges,edge,nodes,algorithm,two,set
+friends	0.300992	0.333647	0.902126	model,models,model.,model,,models.,word,language,probability,models,,modeling	training,features,learning,set,feature,proc.,use,discriminative,model,used
+friends	0.297944	0.505909	0.588929	set,feature,two,let,definition,defined,every,form,following,order	ion,ing,th,le,de,ly,la,ty,te,ions
+friends	0.297055	0.414294	0.717015	topic,document,documents,topics,words,term,lda,text,terms,number	graph,clustering,cluster,clusters,edges,edge,nodes,algorithm,two,set
+friends	0.295758	0.435817	0.678628	text,tweets,user,users,social,data,twitter,information,use,time	query,question,answer,questions,queries,retrieval,answers,search,using,terms
+arms-race	-0.294402	-0.446537	0.659300	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	segmentation,chinese,word,character,segment,boundary,segments,characters,boundaries,segmentation.
+tryst	-0.289342	0.383167	-0.755131	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+tryst	-0.274082	0.523629	-0.523428	rules,rule,rules.,derivation,rules,,set,figure,derivations,forest,synchronous	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+arms-race	-0.270357	-0.315017	0.858231	topic,document,documents,topics,words,term,lda,text,terms,number	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+arms-race	-0.254302	-0.374968	0.678197	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+arms-race	-0.238542	-0.310309	0.768725	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence	graph,clustering,cluster,clusters,edges,edge,nodes,algorithm,two,set
+tryst	-0.232711	0.348968	-0.666855	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+arms-race	-0.229146	-0.247471	0.925948	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence	data,labeled,training,learning,domain,supervised,set,examples,target,using
+tryst	-0.227186	0.501605	-0.452917	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue	sentence,sentences,summary,summarization,sentences.,summaries,using,text,system,sentence.
+tryst	-0.216365	0.289951	-0.746211	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+tryst	-0.207518	0.361668	-0.573779	topic,document,documents,topics,words,term,lda,text,terms,number	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue
+arms-race	-0.202941	-0.247154	0.821112	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair
+tryst	-0.197534	0.397839	-0.496518	rules,rule,rules.,derivation,rules,,set,figure,derivations,forest,synchronous	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair
+tryst	-0.192603	0.386703	-0.498065	rules,rule,rules.,derivation,rules,,set,figure,derivations,forest,synchronous	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+tryst	-0.185757	0.411587	-0.451321	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity
+tryst	-0.184305	0.596305	-0.309078	tree,node,nodes,trees,structure,figure,root,tree.,subtree,structures	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+arms-race	-0.184288	-0.223557	0.824346	score,scores,evaluation,measure,measures,human,average,different,results,similarity	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+arms-race	-0.182973	-0.333874	0.548031	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	training,features,learning,set,feature,proc.,use,discriminative,model,used
+arms-race	-0.176579	-0.277982	0.635218	vector,semantic,vectors,similarity,word,representation,representations,matrix,kernel,space	error,errors,annotation,system,data,annotated,annotations,annotators,correct,task
+arms-race	-0.172722	-0.229338	0.753133	distribution,probability,model,unsupervised,parameters,learning,prior,em,distributions,number	error,errors,annotation,system,data,annotated,annotations,annotators,correct,task
+arms-race	-0.172254	-0.210845	0.816970	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+arms-race	-0.169153	-0.232456	0.727677	model,models,model.,model,,models.,word,language,probability,models,,modeling	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity
+arms-race	-0.168556	-0.226699	0.743522	patterns,extraction,pattern,pairs,precision,extracted,web,set,terms,instances	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+arms-race	-0.166155	-0.347021	0.478805	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+tryst	-0.162762	0.427885	-0.380387	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame
+tryst	-0.158205	0.371701	-0.425625	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent
+tryst	-0.157584	0.287197	-0.548695	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties
+tryst	-0.152802	0.299137	-0.510812	state,states,input,sequence,stack,transition,lattice,path,search,figure	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+tryst	-0.151169	0.250100	-0.604433	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue
+arms-race	-0.149386	-0.220476	0.677559	segmentation,chinese,word,character,segment,boundary,segments,characters,boundaries,segmentation.	graph,clustering,cluster,clusters,edges,edge,nodes,algorithm,two,set
+arms-race	-0.145185	-0.487053	0.298088	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np	query,question,answer,questions,queries,retrieval,answers,search,using,terms
+tryst	-0.144884	0.390142	-0.371361	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue	text,tweets,user,users,social,data,twitter,information,use,time
+tryst	-0.141486	0.308358	-0.458835	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame
+arms-race	-0.140534	-0.189119	0.743100	topic,document,documents,topics,words,term,lda,text,terms,number	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens
+tryst	-0.139263	0.403487	-0.345149	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame
+tryst	-0.138638	0.448460	-0.309143	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties
+arms-race	-0.134484	-0.708923	0.189702	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	english,language,translation,target,languages,source,bilingual,parallel,monolingual,translations
+arms-race	-0.132986	-0.206802	0.643058	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+arms-race	-0.132887	-0.197478	0.672918	graph,clustering,cluster,clusters,edges,edge,nodes,algorithm,two,set	error,errors,annotation,system,data,annotated,annotations,annotators,correct,task
+arms-race	-0.132825	-0.246421	0.539016	state,states,input,sequence,stack,transition,lattice,path,search,figure	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue
+tryst	-0.130613	0.322886	-0.404516	patterns,extraction,pattern,pairs,precision,extracted,web,set,terms,instances	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame
+arms-race	-0.130231	-0.169609	0.767831	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence	vector,semantic,vectors,similarity,word,representation,representations,matrix,kernel,space
+arms-race	-0.129968	-0.275455	0.471829	algorithm,number,time,algorithms,size,length,search,cost,figure,large	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity
+arms-race	-0.129409	-0.155979	0.829655	score,scores,evaluation,measure,measures,human,average,different,results,similarity	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+arms-race	-0.129162	-0.285579	0.452282	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	training,data,language,using,set,test,used,corpus,probability,results
+arms-race	-0.126776	-0.177946	0.712441	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity
+arms-race	-0.124741	-0.221274	0.563740	sentiment,opinion,positive,negative,polarity,reviews,review,words,aspect,product	segmentation,chinese,word,character,segment,boundary,segments,characters,boundaries,segmentation.
+arms-race	-0.118141	-0.226600	0.521362	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence	query,question,answer,questions,queries,retrieval,answers,search,using,terms
+arms-race	-0.111084	-0.145737	0.762225	alignment,word,alignments,aligned,sentence,pairs,paraphrases,words,paraphrase,pair	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity
+arms-race	-0.110962	-0.161220	0.688264	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
+tryst	-0.105532	0.803927	-0.131271	speech,spoken,language,recognition,word,acoustic,speech recognition,using,prosodic,asr	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent
+arms-race	-0.104887	-0.404918	0.259032	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence	text,tweets,user,users,social,data,twitter,information,use,time
+arms-race	-0.103917	-0.189772	0.547590	state,states,input,sequence,stack,transition,lattice,path,search,figure	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+tryst	-0.099770	0.296818	-0.336133	relation,relations,semantic,type,relations.,two,learning,set,types,using	query,question,answer,questions,queries,retrieval,answers,search,using,terms
+arms-race	-0.098951	-0.262590	0.376827	rules,rule,rules.,derivation,rules,,set,figure,derivations,forest,synchronous	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue
+arms-race	-0.094767	-0.142402	0.665489	training,data,language,using,set,test,used,corpus,probability,results	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+arms-race	-0.093477	-0.262519	0.356078	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	english,language,translation,target,languages,source,bilingual,parallel,monolingual,translations
+arms-race	-0.093417	-0.600801	0.155488	transliteration,english,language,string,character,letter,strings,system,phonetic,word	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+tryst	-0.093140	0.116988	-0.796152	error,errors,annotation,system,data,annotated,annotations,annotators,correct,task	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+tryst	-0.092818	0.141111	-0.657767	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue	error,errors,annotation,system,data,annotated,annotations,annotators,correct,task
+arms-race	-0.090645	-0.355837	0.254736	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings	query,question,answer,questions,queries,retrieval,answers,search,using,terms
+tryst	-0.090311	0.153571	-0.588072	sentence,sentences,summary,summarization,sentences.,summaries,using,text,system,sentence.	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame
+arms-race	-0.090017	-0.861432	0.104497	speech,spoken,language,recognition,word,acoustic,speech recognition,using,prosodic,asr	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity
+arms-race	-0.089217	-0.365047	0.244398	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue	morphological,lexicon,word,words,arabic,morphology,forms,form,morpheme,stem
+arms-race	-0.088169	-0.248653	0.354587	state,states,input,sequence,stack,transition,lattice,path,search,figure	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame
+tryst	-0.088023	0.180910	-0.486557	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+tryst	-0.087992	0.928736	-0.094744	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	coreference,antecedent,system,coreference resolution,np,mention,mentions,resolution,pronoun,pronouns
+arms-race	-0.087963	-0.263586	0.333717	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical	coreference,antecedent,system,coreference resolution,np,mention,mentions,resolution,pronoun,pronouns
+arms-race	-0.085612	-0.138331	0.618893	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings
+arms-race	-0.084662	-0.097940	0.864429	score,scores,evaluation,measure,measures,human,average,different,results,similarity	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens
+tryst	-0.084470	0.125286	-0.674218	patterns,extraction,pattern,pairs,precision,extracted,web,set,terms,instances	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+tryst	-0.083981	0.110236	-0.761826	patterns,extraction,pattern,pairs,precision,extracted,web,set,terms,instances	system,input,systems,generation,information,text,used,output,natural language,system.
+tryst	-0.083633	0.564516	-0.148151	tree,node,nodes,trees,structure,figure,root,tree.,subtree,structures	parsing,parser,syntactic,parse,sentences,proceedings,sentence,results,constituent,np
+tryst	-0.083228	0.123274	-0.675149	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue
+tryst	-0.082504	0.401867	-0.205301	speech,spoken,language,recognition,word,acoustic,speech recognition,using,prosodic,asr	text,tweets,user,users,social,data,twitter,information,use,time
+tryst	-0.080083	0.142479	-0.562070	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties	vector,semantic,vectors,similarity,word,representation,representations,matrix,kernel,space
+tryst	-0.078236	0.106370	-0.735506	entity,entities,name,named entity,mention,wikipedia,mentions,information,ner,ne	system,input,systems,generation,information,text,used,output,natural language,system.
+tryst	-0.073051	0.208451	-0.350447	state,states,input,sequence,stack,transition,lattice,path,search,figure	training,features,learning,set,feature,proc.,use,discriminative,model,used
+tryst	-0.072909	0.226624	-0.321719	error,errors,annotation,system,data,annotated,annotations,annotators,correct,task	coreference,antecedent,system,coreference resolution,np,mention,mentions,resolution,pronoun,pronouns
+tryst	-0.068662	0.252832	-0.271573	dependency,parsing,parser,head,dependencies,word,tree,parsers,accuracy,proceedings	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame
+tryst	-0.064526	0.096225	-0.670577	representation,semantic,interpretation,sentence,one,must,may,linguistic,semantics,language	semantic,sense,senses,wordnet,lexical,using,concept,word,concepts,similarity
+tryst	-0.062801	0.293217	-0.214178	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties	speech,spoken,language,recognition,word,acoustic,speech recognition,using,prosodic,asr
+tryst	-0.060108	0.136659	-0.439843	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent	error,errors,annotation,system,data,annotated,annotations,annotators,correct,task
+tryst	-0.059785	0.530033	-0.112795	relation,relations,semantic,type,relations.,two,learning,set,types,using	patterns,extraction,pattern,pairs,precision,extracted,web,set,terms,instances
+tryst	-0.058741	0.155408	-0.377980	error,errors,annotation,system,data,annotated,annotations,annotators,correct,task	event,argument,temporal,events,arguments,semantic,predicate,verb,semantic role,frame
+tryst	-0.056172	0.085120	-0.659914	tag,tags,sequence,tagging,label,accuracy,crf,pos,token,tokens	verb,syntactic,phrase,noun,case,head,verbs,sentence,structure,semantic
+tryst	-0.055288	0.269186	-0.205391	user,dialogue,system,utterance,action,plan,utterances,actions,task,agent	coreference,antecedent,system,coreference resolution,np,mention,mentions,resolution,pronoun,pronouns
+tryst	-0.053984	0.149952	-0.360010	discourse,text,structure,relations,two,coherence,relation,focus,discourse.,cue	segmentation,chinese,word,character,segment,boundary,segments,characters,boundaries,segmentation.
+tryst	-0.052260	0.122865	-0.425343	algorithm,number,time,algorithms,size,length,search,cost,figure,large	grammar,parsing,parser,grammars,category,parse,categories,grammar.,rules,lexical
+tryst	-0.051910	0.100421	-0.516928	topic,document,documents,topics,words,term,lda,text,terms,number	object,attribute,attributes,objects,visual,image,set,images,descriptions,properties
+tryst	-0.051290	0.327396	-0.156660	speech,spoken,language,recognition,word,acoustic,speech recognition,using,prosodic,asr	error,errors,annotation,system,data,annotated,annotations,annotators,correct,task
+tryst	-0.050322	0.106173	-0.473958	tree,node,nodes,trees,structure,figure,root,tree.,subtree,structures	translation,phrase,source,statistical machine,translation.,system,mt,target,reordering,sentence
