@@ -1,0 +1,200 @@
+friends	0.316131	0.461645	0.684792	market,average,today,new york,,stock,new,high,week,list,gains	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+head-to-head	0.313600	-0.495392	-0.633035	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points	state,city,million,local,county,officials,district,maryland,washington,new
+head-to-head	0.305434	-0.408167	-0.748307	tax,budget,spending,would,federal,fiscal,government,cut,taxes,deficit	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+head-to-head	0.278707	-0.373307	-0.746591	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+head-to-head	0.273084	-0.478763	-0.570395	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+friends	0.264043	0.397044	0.665023	stock,company,shares,million,price,market,share,company's,inc.,internet	companies,business,industry,new,technology,american,computer,small,services,company
+friends	0.246152	0.389187	0.632477	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	tax,budget,spending,would,federal,fiscal,government,cut,taxes,deficit
+friends	0.226717	0.381761	0.593871	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government	funds,investors,money,investment,fund,market,financial,investments,assets,returns
+friends	0.213836	0.322724	0.662599	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	would,house,bill,congress,senate,committee,legislation,plan,proposed,members
+friends	0.208783	0.359391	0.580934	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points	stock,market,stocks,investors,companies,prices,past,many,last,market,
+head-to-head	0.206090	-0.415587	-0.495899	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	stock,market,stocks,investors,companies,prices,past,many,last,market,
+head-to-head	0.193751	-0.302506	-0.640485	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	state,city,million,local,county,officials,district,maryland,washington,new
+friends	0.192974	0.317795	0.607228	funds,investors,money,investment,fund,market,financial,investments,assets,returns	stock,market,stocks,investors,companies,prices,past,many,last,market,
+head-to-head	0.189652	-0.350476	-0.541126	government,program,new,help,federal,make,programs,health,financial,could	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+friends	0.186364	0.315455	0.590778	mortgage,home,housing,rates,interest rates,rate,mortgages,sales,real estate,homes	bank,banks,financial,loans,credit,banking,loan,federal reserve,lending,capital
+head-to-head	0.185529	-0.281869	-0.658211	income,according,average,survey,report,number,study,people,found,americans	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+head-to-head	0.185137	-0.281687	-0.657243	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government
+friends	0.184732	0.423912	0.435779	stock,company,shares,million,price,market,share,company's,inc.,internet	company,would,deal,billion,million,group,new york,according,corp.,companies
+friends	0.182909	0.363332	0.503420	prices,bond,gold,market,analysts,new york,yesterday,markets,traders,fell	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+friends	0.182802	0.348429	0.524645	stock,company,shares,million,price,market,share,company's,inc.,internet	million,earnings,company,profit,revenue,cents,reported,results,sales,million,
+head-to-head	0.179357	-0.293192	-0.611738	one,people,black,two,first,many,men,years,days,women	billion,deficit,billion,,record,last,exports,trade deficit,imports,billion.,year
+friends	0.176576	0.375287	0.470510	prices,bond,gold,market,analysts,new york,yesterday,markets,traders,fell	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders
+friends	0.162090	0.254282	0.637442	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government
+friends	0.159624	0.310149	0.514668	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+friends	0.157912	0.229739	0.687354	company,would,deal,billion,million,group,new york,according,corp.,companies	funds,investors,money,investment,fund,market,financial,investments,assets,returns
+head-to-head	0.157596	-0.312961	-0.503563	prices,bond,gold,market,analysts,new york,yesterday,markets,traders,fell	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton
+head-to-head	0.157402	-0.209636	-0.750835	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	funds,investors,money,investment,fund,market,financial,investments,assets,returns
+head-to-head	0.156884	-0.216133	-0.725866	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	stock,market,stocks,investors,companies,prices,past,many,last,market,
+friends	0.156810	0.269411	0.582048	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders
+head-to-head	0.156153	-0.201158	-0.776270	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government	state,city,million,local,county,officials,district,maryland,washington,new
+friends	0.153806	0.261708	0.587703	prices,bond,gold,market,analysts,new york,yesterday,markets,traders,fell	stock,market,trading,exchange,options,new york,securities,nasdaq,traders,investors
+friends	0.153805	0.465937	0.330098	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders	trade,japanese,foreign,japan,american,international,japan's,officials,united states,would
+friends	0.150517	0.289833	0.519325	one,people,black,two,first,many,men,years,days,women	people,get,even,like,one,good,time,much,think,going
+friends	0.148658	0.239406	0.620945	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	tax,budget,spending,would,federal,fiscal,government,cut,taxes,deficit
+friends	0.147918	0.467832	0.316179	economic,world,global,markets,china,countries,european,international,asian,financial	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders
+head-to-head	0.141825	-0.205474	-0.690234	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders	state,city,million,local,county,officials,district,maryland,washington,new
+head-to-head	0.141174	-0.195228	-0.723125	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	million,earnings,company,profit,revenue,cents,reported,results,sales,million,
+friends	0.139690	0.324611	0.430330	stock,company,shares,million,price,market,share,company's,inc.,internet	stock,market,trading,exchange,options,new york,securities,nasdaq,traders,investors
+head-to-head	0.135546	-0.261189	-0.518957	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government	war,defense,military,american,united states,first,security,economic,president,may
+head-to-head	0.135134	-0.179631	-0.752288	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	since,first,year,last,time,two,year,,past,nearly,one
+head-to-head	0.134664	-0.354884	-0.379459	workers,labor,jobs,work,employees,union,job,pay,unemployment,benefits	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government
+head-to-head	0.130020	-0.271125	-0.479557	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	million,earnings,company,profit,revenue,cents,reported,results,sales,million,
+head-to-head	0.129236	-0.375085	-0.344551	prices,bond,gold,market,analysts,new york,yesterday,markets,traders,fell	university,school,college,students,new,professor,public,education,national,state
+friends	0.129086	0.335583	0.384663	one,people,black,two,first,many,men,years,days,women	university,school,college,students,new,professor,public,education,national,state
+friends	0.128755	0.308465	0.417407	one,people,black,two,first,many,men,years,days,women	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton
+head-to-head	0.126121	-0.325424	-0.387560	one,people,black,two,first,many,men,years,days,women	rose,report,month,reported,economic,fell,index,economy,sales,since
+tryst	-0.122856	0.495192	-0.248097	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+friends	0.122798	0.343173	0.357831	workers,labor,jobs,work,employees,union,job,pay,unemployment,benefits	state,city,million,local,county,officials,district,maryland,washington,new
+friends	0.122777	0.267326	0.459280	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton	government,program,new,help,federal,make,programs,health,financial,could
+friends	0.121162	0.177427	0.682884	million,earnings,company,profit,revenue,cents,reported,results,sales,million,	stock,market,stocks,investors,companies,prices,past,many,last,market,
+friends	0.120793	0.327234	0.369133	one,people,black,two,first,many,men,years,days,women	one,new,two,last,news,three,first,national,time,10
+head-to-head	0.120375	-0.224409	-0.536408	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government	would,house,bill,congress,senate,committee,legislation,plan,proposed,members
+arms-race	-0.120247	-0.264492	0.454634	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+head-to-head	0.119556	-0.204822	-0.583707	stock,company,shares,million,price,market,share,company's,inc.,internet	rate,federal reserve,interest rates,fed,rates,credit,cut,interest,money,federal
+tryst	-0.119200	0.299088	-0.398545	stock,company,shares,million,price,market,share,company's,inc.,internet	sales,auto,retailers,stores,retail,consumers,car,industry,cars,consumer
+head-to-head	0.117729	-0.257062	-0.457979	one,people,black,two,first,many,men,years,days,women	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders
+friends	0.117603	0.201455	0.583766	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	state,city,million,local,county,officials,district,maryland,washington,new
+head-to-head	0.116920	-0.298386	-0.391842	state,city,million,local,county,officials,district,maryland,washington,new	stock,market,stocks,investors,companies,prices,past,many,last,market,
+head-to-head	0.116380	-0.156080	-0.745641	company,would,deal,billion,million,group,new york,according,corp.,companies	percent,percent,,last,percent.,average,week,since,rate,rates,increase
+friends	0.115968	0.277123	0.418470	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders
+head-to-head	0.115038	-0.173824	-0.661808	percent,percent,,last,percent.,average,week,since,rate,rates,increase	economic,economy,could,recovery,recent,growth,global,low,also,markets
+head-to-head	0.114317	-0.311260	-0.367272	workers,labor,jobs,work,employees,union,job,pay,unemployment,benefits	prices,bond,gold,market,analysts,new york,yesterday,markets,traders,fell
+head-to-head	0.113271	-0.289511	-0.391248	stock,company,shares,million,price,market,share,company's,inc.,internet	tax,budget,spending,would,federal,fiscal,government,cut,taxes,deficit
+head-to-head	0.112543	-0.396227	-0.284037	university,school,college,students,new,professor,public,education,national,state	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+head-to-head	0.112056	-0.208611	-0.537152	people,get,even,like,one,good,time,much,think,going	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+head-to-head	0.111735	-0.356235	-0.313655	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+friends	0.111163	0.315429	0.352417	state,city,million,local,county,officials,district,maryland,washington,new	university,school,college,students,new,professor,public,education,national,state
+head-to-head	0.110806	-0.220880	-0.501656	workers,labor,jobs,work,employees,union,job,pay,unemployment,benefits	stock,market,trading,exchange,options,new york,securities,nasdaq,traders,investors
+head-to-head	0.110395	-0.234237	-0.471298	workers,labor,jobs,work,employees,union,job,pay,unemployment,benefits	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders
+friends	0.109765	0.225117	0.487590	sales,auto,retailers,stores,retail,consumers,car,industry,cars,consumer	mortgage,home,housing,rates,interest rates,rate,mortgages,sales,real estate,homes
+friends	0.109274	0.179891	0.607446	trade,japanese,foreign,japan,american,international,japan's,officials,united states,would	billion,deficit,billion,,record,last,exports,trade deficit,imports,billion.,year
+head-to-head	0.108647	-0.218301	-0.497693	economic,world,global,markets,china,countries,european,international,asian,financial	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+head-to-head	0.108373	-0.235665	-0.459860	state,city,million,local,county,officials,district,maryland,washington,new	stock,market,trading,exchange,options,new york,securities,nasdaq,traders,investors
+head-to-head	0.107829	-0.221255	-0.487351	tax,budget,spending,would,federal,fiscal,government,cut,taxes,deficit	stock,market,stocks,investors,companies,prices,past,many,last,market,
+friends	0.107050	0.181242	0.590647	state,city,million,local,county,officials,district,maryland,washington,new	war,defense,military,american,united states,first,security,economic,president,may
+friends	0.106988	0.195875	0.546203	mr.,says,many,president,say,much,think,chief,see,going	stock,market,stocks,investors,companies,prices,past,many,last,market,
+arms-race	-0.105099	-0.356211	0.295047	tax,budget,spending,would,federal,fiscal,government,cut,taxes,deficit	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+head-to-head	0.104767	-0.186883	-0.560600	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders	percent,percent,,last,percent.,average,week,since,rate,rates,increase
+head-to-head	0.104256	-0.295096	-0.353295	one,people,black,two,first,many,men,years,days,women	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government
+head-to-head	0.104209	-0.274817	-0.379196	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+head-to-head	0.104156	-0.221702	-0.469804	prices,bond,gold,market,analysts,new york,yesterday,markets,traders,fell	government,program,new,help,federal,make,programs,health,financial,could
+friends	0.103931	0.132045	0.787092	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	per cent,year,increase,major,price,high,nationûªs,per,inflation,business
+friends	0.103117	0.215985	0.477427	company,would,deal,billion,million,group,new york,according,corp.,companies	million,earnings,company,profit,revenue,cents,reported,results,sales,million,
+friends	0.102972	0.298490	0.344977	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton	war,defense,military,american,united states,first,security,economic,president,may
+head-to-head	0.102103	-0.190787	-0.535168	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	market,average,today,new york,,stock,new,high,week,list,gains
+head-to-head	0.100803	-0.167258	-0.602680	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	stock,company,shares,million,price,market,share,company's,inc.,internet
+friends	0.100756	0.217386	0.463491	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government	stock,market,stocks,investors,companies,prices,past,many,last,market,
+arms-race	-0.100583	-0.342158	0.293965	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points	pay,would,tax,social security,retirement,insurance,income,percent,cost,money
+arms-race	-0.100374	-0.223176	0.449751	tax,budget,spending,would,federal,fiscal,government,cut,taxes,deficit	market,average,today,new york,,stock,new,high,week,list,gains
+head-to-head	0.100258	-0.277215	-0.361663	one,economic,even,would,much,real,american,many,important,years	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+tryst	-0.100257	0.146882	-0.682572	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy
+head-to-head	0.100223	-0.251789	-0.398045	mortgage,home,housing,rates,interest rates,rate,mortgages,sales,real estate,homes	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+head-to-head	0.099903	-0.322819	-0.309471	stock,company,shares,million,price,market,share,company's,inc.,internet	economic,economy,recession,next,year,economists,growth,would,could,forecast
+head-to-head	0.099130	-0.252049	-0.393299	inflation,prices,price,consumer,increase,increases,rate,rise,rising,higher	would,house,bill,congress,senate,committee,legislation,plan,proposed,members
+friends	0.098968	0.143906	0.687729	million,earnings,company,profit,revenue,cents,reported,results,sales,million,	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+friends	0.098415	0.166078	0.592581	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	economic,economy,could,recovery,recent,growth,global,low,also,markets
+head-to-head	0.098376	-0.149840	-0.656540	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government	per cent,year,increase,major,price,high,nationûªs,per,inflation,business
+head-to-head	0.098037	-0.362421	-0.270506	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	rose,report,month,reported,economic,fell,index,economy,sales,since
+friends	0.097905	0.166787	0.587004	stock,company,shares,million,price,market,share,company's,inc.,internet	stock,market,stocks,investors,companies,prices,past,many,last,market,
+friends	0.095923	0.287641	0.333481	one,new,two,last,news,three,first,national,time,10	state,city,million,local,county,officials,district,maryland,washington,new
+friends	0.095175	0.222347	0.428046	stock,market,trading,exchange,options,new york,securities,nasdaq,traders,investors	stock,market,stocks,investors,companies,prices,past,many,last,market,
+tryst	-0.093601	0.337741	-0.277139	rate,federal reserve,interest rates,fed,rates,credit,cut,interest,money,federal	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy
+friends	0.092977	0.269000	0.345641	stock,company,shares,million,price,market,share,company's,inc.,internet	federal,government,securities,court,regulators,corporate,law,accounting,filed,according
+friends	0.088664	0.283713	0.312514	growth,economic,economy,rate,first,product,quarter,gross domestic,productivity,gdp	rose,report,month,reported,economic,fell,index,economy,sales,since
+friends	0.088361	0.328468	0.269009	company,would,deal,billion,million,group,new york,according,corp.,companies	bank,banks,financial,loans,credit,banking,loan,federal reserve,lending,capital
+friends	0.085299	0.239908	0.355549	one,economic,even,would,much,real,american,many,important,years	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton
+arms-race	-0.085260	-0.181166	0.470619	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	market,average,today,new york,,stock,new,high,week,list,gains
+friends	0.084194	0.163445	0.515121	one,people,black,two,first,many,men,years,days,women	government,program,new,help,federal,make,programs,health,financial,could
+tryst	-0.083433	0.430537	-0.193789	economic,world,global,markets,china,countries,european,international,asian,financial	trade,japanese,foreign,japan,american,international,japan's,officials,united states,would
+friends	0.080946	0.129001	0.627488	company,would,deal,billion,million,group,new york,according,corp.,companies	economic,world,global,markets,china,countries,european,international,asian,financial
+tryst	-0.079129	0.222298	-0.355959	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	pay,would,tax,social security,retirement,insurance,income,percent,cost,money
+arms-race	-0.078586	-0.184780	0.425295	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	company,would,deal,billion,million,group,new york,according,corp.,companies
+tryst	-0.076208	0.170393	-0.447247	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points	market,average,today,new york,,stock,new,high,week,list,gains
+arms-race	-0.075635	-0.113270	0.667741	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	market,average,today,new york,,stock,new,high,week,list,gains
+arms-race	-0.075356	-0.131712	0.572125	billion,deficit,billion,,record,last,exports,trade deficit,imports,billion.,year	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+tryst	-0.074170	0.200677	-0.369599	rate,federal reserve,interest rates,fed,rates,credit,cut,interest,money,federal	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government
+tryst	-0.072865	0.215408	-0.338264	growth,economic,economy,rate,first,product,quarter,gross domestic,productivity,gdp	jobs,unemployment,employment,unemployment rate,job,report,new,last,labor,number
+tryst	-0.071045	0.230148	-0.308693	growth,economic,economy,rate,first,product,quarter,gross domestic,productivity,gdp	economic,economy,recession,next,year,economists,growth,would,could,forecast
+arms-race	-0.070818	-0.210976	0.335670	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	million,earnings,company,profit,revenue,cents,reported,results,sales,million,
+tryst	-0.069226	0.286526	-0.241604	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	new,would,could,make,law,rules,drug,one,use,way
+tryst	-0.068435	0.184223	-0.371480	stock,market,stocks,investors,companies,prices,past,many,last,market,	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+arms-race	-0.066840	-0.151903	0.440020	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	economic,economy,recession,next,year,economists,growth,would,could,forecast
+tryst	-0.065014	0.258025	-0.251969	tax,budget,spending,would,federal,fiscal,government,cut,taxes,deficit	pay,would,tax,social security,retirement,insurance,income,percent,cost,money
+arms-race	-0.063221	-0.094920	0.666049	state,city,million,local,county,officials,district,maryland,washington,new	economic,economy,recession,next,year,economists,growth,would,could,forecast
+tryst	-0.063083	0.151577	-0.416182	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	economic,economy,recession,next,year,economists,growth,would,could,forecast
+arms-race	-0.061973	-0.257249	0.240907	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton	mortgage,home,housing,rates,interest rates,rate,mortgages,sales,real estate,homes
+tryst	-0.055489	0.186583	-0.297393	growth,economic,economy,rate,first,product,quarter,gross domestic,productivity,gdp	percent,percent,,last,percent.,average,week,since,rate,rates,increase
+tryst	-0.055142	0.263831	-0.209006	sales,auto,retailers,stores,retail,consumers,car,industry,cars,consumer	companies,business,industry,new,technology,american,computer,small,services,company
+arms-race	-0.051924	-0.248505	0.208945	prices,bond,gold,market,analysts,new york,yesterday,markets,traders,fell	companies,business,industry,new,technology,american,computer,small,services,company
+tryst	-0.051899	0.076026	-0.682642	percent,percent,,last,percent.,average,week,since,rate,rates,increase	since,first,year,last,time,two,year,,past,nearly,one
+arms-race	-0.051811	-0.131824	0.393029	trade,japanese,foreign,japan,american,international,japan's,officials,united states,would	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+tryst	-0.051634	0.085042	-0.607155	million,earnings,company,profit,revenue,cents,reported,results,sales,million,	percent,percent,,last,percent.,average,week,since,rate,rates,increase
+arms-race	-0.048973	-0.155357	0.315227	economic,economy,recession,next,year,economists,growth,would,could,forecast	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+arms-race	-0.048004	-0.149430	0.321245	state,city,million,local,county,officials,district,maryland,washington,new	market,average,today,new york,,stock,new,high,week,list,gains
+arms-race	-0.047207	-0.286254	0.164914	stock,company,shares,million,price,market,share,company's,inc.,internet	growth,economic,economy,rate,first,product,quarter,gross domestic,productivity,gdp
+arms-race	-0.046620	-0.170238	0.273852	rate,federal reserve,interest rates,fed,rates,credit,cut,interest,money,federal	state,city,million,local,county,officials,district,maryland,washington,new
+tryst	-0.045694	0.112779	-0.405164	stock,market,stocks,investors,companies,prices,past,many,last,market,	economic,economy,recession,next,year,economists,growth,would,could,forecast
+tryst	-0.045471	0.125846	-0.361320	income,according,average,survey,report,number,study,people,found,americans	percent,percent,,last,percent.,average,week,since,rate,rates,increase
+arms-race	-0.045425	-0.085246	0.532873	would,could,even,back,get,like,last,economy,may,one	percent,percent,,last,percent.,average,week,since,rate,rates,increase
+arms-race	-0.045352	-0.101090	0.448630	sales,auto,retailers,stores,retail,consumers,car,industry,cars,consumer	government,program,new,help,federal,make,programs,health,financial,could
+tryst	-0.044794	0.126980	-0.352761	million,earnings,company,profit,revenue,cents,reported,results,sales,million,	billion,deficit,billion,,record,last,exports,trade deficit,imports,billion.,year
+arms-race	-0.044476	-0.148595	0.299313	companies,business,industry,new,technology,american,computer,small,services,company	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+arms-race	-0.043708	-0.194273	0.224981	stock,company,shares,million,price,market,share,company's,inc.,internet	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy
+arms-race	-0.042720	-0.175503	0.243417	jobs,unemployment,employment,unemployment rate,job,report,new,last,labor,number	bank,banks,financial,loans,credit,banking,loan,federal reserve,lending,capital
+arms-race	-0.042184	-0.202235	0.208588	growth,economic,economy,rate,first,product,quarter,gross domestic,productivity,gdp	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+arms-race	-0.042056	-0.287907	0.146075	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+arms-race	-0.041942	-0.083934	0.499710	economic,world,global,markets,china,countries,european,international,asian,financial	since,first,year,last,time,two,year,,past,nearly,one
+tryst	-0.041629	0.084276	-0.493966	market,average,today,new york,,stock,new,high,week,list,gains	stock,market,stocks,investors,companies,prices,past,many,last,market,
+tryst	-0.041420	0.173376	-0.238902	percent,percent,,last,percent.,average,week,since,rate,rates,increase	rose,report,month,reported,economic,fell,index,economy,sales,since
+tryst	-0.040449	0.216542	-0.186795	sales,auto,retailers,stores,retail,consumers,car,industry,cars,consumer	million,earnings,company,profit,revenue,cents,reported,results,sales,million,
+arms-race	-0.040392	-0.049062	0.823281	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	percent,percent,,last,percent.,average,week,since,rate,rates,increase
+tryst	-0.039909	0.170979	-0.233415	bond,treasury,bonds,yield,investors,interest rates,market,yields,securities,government	mortgage,home,housing,rates,interest rates,rate,mortgages,sales,real estate,homes
+arms-race	-0.038210	-0.114857	0.332674	pay,would,tax,social security,retirement,insurance,income,percent,cost,money	stock,market,stocks,investors,companies,prices,past,many,last,market,
+tryst	-0.037965	0.103337	-0.367392	mr.,says,many,president,say,much,think,chief,see,going	mortgage,home,housing,rates,interest rates,rate,mortgages,sales,real estate,homes
+arms-race	-0.037766	-0.201955	0.187002	rate,federal reserve,interest rates,fed,rates,credit,cut,interest,money,federal	war,defense,military,american,united states,first,security,economic,president,may
+tryst	-0.037320	0.119253	-0.312951	economic,world,global,markets,china,countries,european,international,asian,financial	billion,deficit,billion,,record,last,exports,trade deficit,imports,billion.,year
+arms-race	-0.037134	-0.333906	0.111211	new,would,could,make,law,rules,drug,one,use,way	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+arms-race	-0.036700	-0.143324	0.256067	percent,percent,,last,percent.,average,week,since,rate,rates,increase	trade,japanese,foreign,japan,american,international,japan's,officials,united states,would
+arms-race	-0.036326	-0.150883	0.240756	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	sales,auto,retailers,stores,retail,consumers,car,industry,cars,consumer
+tryst	-0.036031	0.310994	-0.115858	economic,world,global,markets,china,countries,european,international,asian,financial	war,defense,military,american,united states,first,security,economic,president,may
+tryst	-0.035456	0.097061	-0.365300	sales,auto,retailers,stores,retail,consumers,car,industry,cars,consumer	mr.,says,many,president,say,much,think,chief,see,going
+arms-race	-0.035445	-0.167786	0.211251	new,would,could,make,law,rules,drug,one,use,way	since,first,year,last,time,two,year,,past,nearly,one
+arms-race	-0.034854	-0.103114	0.338010	government,program,new,help,federal,make,programs,health,financial,could	since,first,year,last,time,two,year,,past,nearly,one
+arms-race	-0.034843	-0.270302	0.128905	state,city,million,local,county,officials,district,maryland,washington,new	stock,market,points,new york,dow jones,volume,new york,,stocks,average,point
+arms-race	-0.034722	-0.106062	0.327377	trade,japanese,foreign,japan,american,international,japan's,officials,united states,would	market,average,today,new york,,stock,new,high,week,list,gains
+arms-race	-0.034638	-0.047593	0.727798	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	funds,investors,money,investment,fund,market,financial,investments,assets,returns
+tryst	-0.034523	0.090825	-0.380104	economic,economy,could,recovery,recent,growth,global,low,also,markets	economic,economy,recession,next,year,economists,growth,would,could,forecast
+arms-race	-0.033618	-0.174536	0.192614	people,get,even,like,one,good,time,much,think,going	million,earnings,company,profit,revenue,cents,reported,results,sales,million,
+arms-race	-0.032578	-0.277411	0.117437	growth,economic,economy,rate,first,product,quarter,gross domestic,productivity,gdp	stock,market,trading,exchange,options,new york,securities,nasdaq,traders,investors
+arms-race	-0.032341	-0.182323	0.177384	sales,auto,retailers,stores,retail,consumers,car,industry,cars,consumer	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton
+arms-race	-0.032094	-0.089908	0.356967	rate,federal reserve,interest rates,fed,rates,credit,cut,interest,money,federal	would,house,bill,congress,senate,committee,legislation,plan,proposed,members
+arms-race	-0.031267	-0.059087	0.529160	market,average,today,new york,,stock,new,high,week,list,gains	billion,deficit,billion,,record,last,exports,trade deficit,imports,billion.,year
+arms-race	-0.031054	-0.056183	0.552723	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	since,first,year,last,time,two,year,,past,nearly,one
+arms-race	-0.031009	-0.116189	0.266882	stock,market,stocks,investors,companies,prices,past,many,last,market,	university,school,college,students,new,professor,public,education,national,state
+tryst	-0.030922	0.116642	-0.265100	stock,company,shares,million,price,market,share,company's,inc.,internet	bank,banks,financial,loans,credit,banking,loan,federal reserve,lending,capital
+tryst	-0.030805	0.096922	-0.317837	companies,business,industry,new,technology,american,computer,small,services,company	trade,japanese,foreign,japan,american,international,japan's,officials,united states,would
+arms-race	-0.030717	-0.254954	0.120482	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points	federal,government,securities,court,regulators,corporate,law,accounting,filed,according
+tryst	-0.030153	0.069383	-0.434580	funds,investors,money,investment,fund,market,financial,investments,assets,returns	billion,deficit,billion,,record,last,exports,trade deficit,imports,billion.,year
+tryst	-0.030003	0.106734	-0.281101	new,would,could,make,law,rules,drug,one,use,way	tax,budget,spending,would,federal,fiscal,government,cut,taxes,deficit
+arms-race	-0.030001	-0.087974	0.341023	percent,percent,,last,percent.,average,week,since,rate,rates,increase	war,defense,military,american,united states,first,security,economic,president,may
+arms-race	-0.029501	-0.260807	0.113115	new,would,could,make,law,rules,drug,one,use,way	stock,market,stocks,investors,companies,prices,past,many,last,market,
+tryst	-0.028419	0.079309	-0.358337	dollar,currency,yen,euro,new york,trading,bank,late,dollar's,traders	economic,economy,recession,next,year,economists,growth,would,could,forecast
+arms-race	-0.028342	-0.090437	0.313383	fed,federal reserve,inflation,greenspan,interest rates,fed's,rates,officials,economy,policy	stock,market,trading,exchange,options,new york,securities,nasdaq,traders,investors
+tryst	-0.028341	0.069786	-0.406115	prices,bond,gold,market,analysts,new york,yesterday,markets,traders,fell	economic,economy,could,recovery,recent,growth,global,low,also,markets
+arms-race	-0.028008	-0.059817	0.468233	would,could,even,back,get,like,last,economy,may,one	market,average,today,new york,,stock,new,high,week,list,gains
+arms-race	-0.027912	-0.047519	0.587389	would,house,bill,congress,senate,committee,legislation,plan,proposed,members	percent,percent,,last,percent.,average,week,since,rate,rates,increase
+tryst	-0.027232	0.049243	-0.553012	president,economic,yesterday,chairman,mr.,would,administration,board,told,meeting	economic,world,global,markets,china,countries,european,international,asian,financial
+tryst	-0.023478	0.041445	-0.566469	rate,federal reserve,interest rates,fed,rates,credit,cut,interest,money,federal	economic,world,global,markets,china,countries,european,international,asian,financial
+tryst	-0.022897	0.056239	-0.407133	company,would,deal,billion,million,group,new york,according,corp.,companies	billion,deficit,billion,,record,last,exports,trade deficit,imports,billion.,year
+tryst	-0.022365	0.043392	-0.515427	rate,federal reserve,interest rates,fed,rates,credit,cut,interest,money,federal	index,dow jones,stocks,industrial average,investors,fell,rose,points,,stock,points
+tryst	-0.021800	0.132681	-0.164301	market,average,today,new york,,stock,new,high,week,list,gains	stock,market,trading,exchange,options,new york,securities,nasdaq,traders,investors
+tryst	-0.020975	0.197110	-0.106412	sales,auto,retailers,stores,retail,consumers,car,industry,cars,consumer	rose,report,month,reported,economic,fell,index,economy,sales,since
+tryst	-0.019508	0.235923	-0.082686	state,city,million,local,county,officials,district,maryland,washington,new	pay,would,tax,social security,retirement,insurance,income,percent,cost,money
+tryst	-0.018970	0.057345	-0.330813	company,would,deal,billion,million,group,new york,according,corp.,companies	state,city,million,local,county,officials,district,maryland,washington,new
+tryst	-0.018715	0.105061	-0.178135	inflation,prices,price,consumer,increase,increases,rate,rise,rising,higher	jobs,unemployment,employment,unemployment rate,job,report,new,last,labor,number
+tryst	-0.018213	0.090983	-0.200180	inflation,prices,price,consumer,increase,increases,rate,rise,rising,higher	economic,economy,recession,next,year,economists,growth,would,could,forecast
+tryst	-0.017780	0.173167	-0.102673	one,economic,even,would,much,real,american,many,important,years	government,program,new,help,federal,make,programs,health,financial,could
+tryst	-0.017145	0.178245	-0.096189	mr.,president,bush,political,democratic,campaign,republican,state,democrats,clinton	federal,government,securities,court,regulators,corporate,law,accounting,filed,according
+tryst	-0.017104	0.256503	-0.066682	state,city,million,local,county,officials,district,maryland,washington,new	federal,government,securities,court,regulators,corporate,law,accounting,filed,according
+tryst	-0.016878	0.128523	-0.131325	people,get,even,like,one,good,time,much,think,going	would,could,even,back,get,like,last,economy,may,one
