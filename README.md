@@ -1,4 +1,4 @@
-# sNLP-win-21
+# NLP-win-21
 
 Jerry Jason George project repo~
 
@@ -23,6 +23,7 @@ Reference
 
 1. 他之前推荐的alternative topic modelling method太难了，我真的看不懂，而且code比较老，可能需要自己implement才能用，可能要用上不太现实（George你可以试试看能不能看懂）
 	- 但是他推荐了一个相对简单的method，可能可以直接使用，到时候试试看：https://www.structuraltopicmodel.com/ 
+	  - https://www.youtube.com/watch?v=k-zkxdxyjTk 28:09
 	- some other papers he recommended to understand the current method
 	  - https://arxiv.org/abs/1703.01488 
 	  - Variational-inference-i 在References/method 文件夹里面
