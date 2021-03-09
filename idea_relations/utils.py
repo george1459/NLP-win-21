@@ -102,6 +102,7 @@ def read_json_list(input_file):
     with gzip.open(input_file) if input_file.endswith(".gz") \
             else open(input_file) as fin:
         for line in fin:
+            # print(line)
             obj = json.loads(line)
             yield obj
 

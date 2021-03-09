@@ -16,6 +16,8 @@ STOPWORDS = set(stopwords.words("english") + ["said"])
 
 def get_ngram_list(input_words, ngrams=1, filter_stopwords=True,
                    bigram_dict=None):
+    # print(input_words)
+    # print(input_words.split())
     words = [w.lower() for w in input_words.split()]
     result = []
     for start in range(len(words) - ngrams + 1):
@@ -26,9 +28,11 @@ def get_ngram_list(input_words, ngrams=1, filter_stopwords=True,
         result.append(w)
     return result
 
-            
+
 def get_mixed_tokens(input_words, ngrams=1, filter_stopwords=True,
                      bigram_dict=None):
+    # print(input_words)
+    # print(input_words.split())
     words = [w.lower() for w in input_words.split()]
     result, index = [], 0
     while index < len(words):
@@ -52,6 +56,8 @@ def get_word_count(input_file, filter_stopwords=True, ngrams=1,
                    bigram_dict=None, words_func=None):
     result = collections.defaultdict(int)
     for data in utils.read_json_list(input_file):
+        # print(data)
+        # print(data["text"])
         words = words_func(data["text"], ngrams=ngrams,
                            filter_stopwords=filter_stopwords,
                            bigram_dict=bigram_dict)
@@ -92,17 +98,21 @@ def load_bigrams(filename):
 
 
 def get_word_dict(word_count, top=10000, filter_regex=None):
+    # print(word_count)
+    filter_regex = None
     if filter_regex:
         word_count = {w: word_count[w] for w in word_count
                       if all([re.match(filter_regex, sw) for sw in w.split()])}
+    # print(word_count)
     words = get_most_frequent(word_count, top=top)
     return {v[1]: i for i, v in enumerate(words)}
 
 
 def get_most_frequent(word_cnt, top=10000):
-    words = [(word_cnt[w], w) for w in word_cnt
-            if re.match("\w+", w)]
+    words = [(word_cnt[w], w) for w in word_cnt]
+            # if re.match("\w+", w)]
     words.sort(reverse=True)
+    # print(words)
     min_threshold = words[top - 1][0]
     return [v for v in words if v[0] >= min_threshold]
 

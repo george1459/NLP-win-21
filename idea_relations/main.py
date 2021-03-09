@@ -95,7 +95,7 @@ def main():
     if option == "topics":
         logging.info("using topics to represent ideas")
         prefix = "%s_topics" % prefix
-        # generate mallet topics        
+        # generate mallet topics
         mt.get_mallet_input_from_words(input_file, data_output_dir)
         if not mt.check_mallet_directory(data_output_dir):
             # run mallet to prepare topics inputs
@@ -109,6 +109,9 @@ def main():
         # load mallet outputs
         articles, vocab, idea_names = mt.load_articles(input_file,
                                                        data_output_dir)
+        print(articles)
+        print(vocab)
+        print(idea_names)
         table_top = 5
     elif option == "keywords":
         logging.info("using keywords to represent ideas")
