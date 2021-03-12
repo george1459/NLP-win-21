@@ -24,8 +24,19 @@ that wrong yesterday). My tokenizer for Chinese is implemented in
 `articles`: for each article given in `input_file` (namely each line),
 you need to return the following list:
 
-```
-[Article(fulldate=1951, ideas=set([32, 48, 3, 4, 5, 7, 10, 15, 16, 20, 24, 25, 29])), Article(fulldate=1951, ideas=set([32, 2, 35, 41, 14, 17, 19, 20, 23, 25, 26, 28])), Article(fulldate=1951, ideas=set([33, 7, 41, 13, 45, 16, 18, 23, 27])), Article(fulldate=1951, ideas=set([0, 1, 2, 32, 8, 9, 45, 23, 28, 31])), Article(fulldate=1951, ideas=set([34, 37, 7, 9, 43, 13, 23, 25, 26, 27])), Article(fulldate=1951, ideas=set([32, 1, 36, 7, 12, 13, 14, 49, 22, 23, 27])), Article(fulldate=1951, ideas=set([1, 36, 5, 33, 40, 42, 11, 44, 17, 19, 23, 24, 25, 26, 37, 31])), Article(fulldate=1951, ideas=set([32, 1, 4, 37, 7, 40, 10, 16, 49, 48, 23, 25, 29])), Article(fulldate=1951, ideas=set([7, 9, 13, 49, 20, 23, 27])), Article(fulldate=1951, ideas=set([32, 34, 7, 41, 10, 12, 13, 14, 15, 19, 23, 26, 27]))]
+```python
+[
+  Article(fulldate=1951, ideas=set([32, 48, 3, 4, 5, 7, 10, 15, 16, 20, 24, 25, 29])), 
+  Article(fulldate=1951, ideas=set([32, 2, 35, 41, 14, 17, 19, 20, 23, 25, 26, 28])), 
+  Article(fulldate=1951, ideas=set([33, 7, 41, 13, 45, 16, 18, 23, 27])), 
+  Article(fulldate=1951, ideas=set([0, 1, 2, 32, 8, 9, 45, 23, 28, 31])), 
+  Article(fulldate=1951, ideas=set([34, 37, 7, 9, 43, 13, 23, 25, 26, 27])), 
+  Article(fulldate=1951, ideas=set([32, 1, 36, 7, 12, 13, 14, 49, 22, 23, 27])), 
+  Article(fulldate=1951, ideas=set([1, 36, 5, 33, 40, 42, 11, 44, 17, 19, 23, 24, 25, 26, 37, 31])), 
+  Article(fulldate=1951, ideas=set([32, 1, 4, 37, 7, 40, 10, 16, 49, 48, 23, 25, 29])), 
+  Article(fulldate=1951, ideas=set([7, 9, 13, 49, 20, 23, 27])), 
+  Article(fulldate=1951, ideas=set([32, 34, 7, 41, 10, 12, 13, 14, 15, 19, 23, 26, 27]))
+]
 ```
 
 This `Article` constructor can be found in `utils.py`, where it is given as:
@@ -50,6 +61,20 @@ This seems to be optional. Neglect for now: Returns a dictionary
 
 Returns a dictionary matching idea index in `articles` with the vocab words:
 
-```
-{0: u'federal reserve,fed,banks,money,credit,rate,board,bank,interest,yesterday', 1: u'bond,treasury,bonds,yield,investors,prices,interest rates,yields,government,securities', 2: u'would,house,bill,congress,senate,committee,legislation,members,vote,federal', 3: u'rose,report,month,index,fell,reported,since,showed,last,economic', 4: u"fed,u.s.,federal reserve,economy,economic,low,policy,fed's,inflation,central bank", 5: u'production,industry,auto,steel,union,new,companies,industries,industrial,car', 6: u'index,stocks,dow jones,stock,industrial average,investors,market,fell,rose,points', 7: u'market,stock,new york,,average,today,points,volume,trading,stocks,dow jones', 8: u'federal,government,law,u.s.,legal,rules,office,court,securities,regulators', 9: u'prices,price,inflation,oil,energy,food,higher,consumer,oil prices,increase', 10: u'investors,funds,stock,market,investment,money,fund,stocks,financial,cash', 11: u'tax,would,taxes,income,cut,increase,new,rates,proposal,also', 12: u"dollar,u.s.,currency,yen,trading,euro,new york,japanese,dollar's,late", 13: u'last,week,time,first,two,since,week,,three,days,four', 14: u'earnings,sales,company,profit,million,revenue,cents,results,reported,year'}
+```python
+{0: u'federal reserve,fed,banks,money,credit,rate,board,bank,interest,yesterday', 
+ 1: u'bond,treasury,bonds,yield,investors,prices,interest rates,yields,government,securities', 
+ 2: u'would,house,bill,congress,senate,committee,legislation,members,vote,federal', 
+ 3: u'rose,report,month,index,fell,reported,since,showed,last,economic', 
+ 4: u"fed,u.s.,federal reserve,economy,economic,low,policy,fed's,inflation,central bank", 
+ 5: u'production,industry,auto,steel,union,new,companies,industries,industrial,car', 
+ 6: u'index,stocks,dow jones,stock,industrial average,investors,market,fell,rose,points', 
+ 7: u'market,stock,new york,,average,today,points,volume,trading,stocks,dow jones', 
+ 8: u'federal,government,law,u.s.,legal,rules,office,court,securities,regulators', 
+ 9: u'prices,price,inflation,oil,energy,food,higher,consumer,oil prices,increase', 
+ 10: u'investors,funds,stock,market,investment,money,fund,stocks,financial,cash', 
+ 11: u'tax,would,taxes,income,cut,increase,new,rates,proposal,also', 
+ 12: u"dollar,u.s.,currency,yen,trading,euro,new york,japanese,dollar's,late", 
+ 13: u'last,week,time,first,two,since,week,,three,days,four', 
+ 14: u'earnings,sales,company,profit,million,revenue,cents,results,reported,year'}
 ```
