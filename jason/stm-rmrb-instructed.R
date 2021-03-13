@@ -14,7 +14,7 @@ library(data.table)
 
 setwd("/Users/admin/Desktop/NLP-win-21/jason") # working directory
 data <- read.csv("/Users/admin/Desktop/NLP-data/sample_df-V1.csv") # input data
-trial_postfix <- "-test1.csv"
+trial_postfix <- "-test1.csv" # 输出两个文件的后缀
 n_topic <- 50 
 output_dir <- '' # output directory name 
 
