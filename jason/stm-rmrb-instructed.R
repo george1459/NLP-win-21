@@ -10,18 +10,27 @@ library(tidytext)
 library(quanteda)
 # library(rjson)
 library(tm)
+library(data.table)
 
-setwd("/Users/admin/Desktop/NLP-win-21/jason")
-data <- read.csv("/Users/admin/Desktop/NLP-data/sample_df-V1.csv") 
-n_docs <- length(data[[2]]) 
-n_topic <- 10
+setwd("/Users/admin/Desktop/NLP-win-21/jason") # working directory
+data <- read.csv("/Users/admin/Desktop/NLP-data/sample_df-V1.csv") # input data
+trial_postfix <- "-test1.csv"
+n_topic <- 50 
+output_dir <- '' # output directory name 
+
+n_docs <- length(data[[2]])  
+
+
+
 
 
 # PREP 
 processed <- textProcessor(data$text, metadata = data) 
 out <- prepDocuments(processed$documents, processed$vocab, processed$meta, 
-                     lower.thresh = 2, upper.thresh = as.integer(n_docs / 2))
+                     lower.thresh = 5, upper.thresh = as.integer(n_docs / 2))
 docs <- out$documents 
+n_docs <- length(docs)  
+
 # vocab <- out$vocab 
 meta <-out$meta 
 
@@ -32,8 +41,9 @@ stm1 <- stm(documents = out$documents, vocab = out$vocab,
              init.type = "Spectral")
 # mu <- stm1$mu
 # sigma <- stm1$sigma 
+print("time used in topic modelling")
 print(stm1$time)
-vocab <- stm1$vocab
+vocab <- stm1$vocab 
 
 # 找每个topic的words -- top 10 words
 n_big_idx <- function(x, n=3) {
@@ -47,15 +57,15 @@ topic_word <- beta$logbeta[[1]]
 topic_names = c(1:n_topic)
 names(topic_names) = c(1:n_topic)
 for (i in c(1:n_topic)) {
-  print(i)
-  topic_names[i] = paste(vocab[n_big_idx(topic_word[i,], n=10)],
+  # print(i)
+  topic_names[i] = paste(vocab[n_big_idx(topic_word[i,], n=n_topic)],
                          collapse = ' ')
 }
 
 topic_names <- list(topic_names)
-library(data.table)
 setDT(topic_names)
-fwrite(list(topic_names[[1]]), file = "topic_names-test1")
+fwrite(list(topic_names[[1]]), 
+       file = file.path(output_dir, paste("topic_names", trial_postfix)))
 
 # 找每个document的topic 
 vocab <- stm1$vocab 
@@ -66,7 +76,8 @@ thres <- .01
 
 # doc_topic[1,] 
 doc_topic_out <- add_column(tibble(doc_topic), meta$date) 
-write.table(doc_topic_out , file = "doc_topic-test1.csv")
+write.table(doc_topic_out , 
+            file = file.path(output_dir, paste("doc_topic", trial_postfix)) )
 
 
 # doc_i <- doc_topic[i,] 
@@ -81,15 +92,15 @@ write.table(doc_topic_out , file = "doc_topic-test1.csv")
 
 
 ## # # # # #  ## # # # # # ## # # # # # ## # # # # # ## # # # # # ## # # # # # 
-# Sanity check 
-# i is the index of document 
-i <- 100
-i_str <-  as.character(i)
-paste(vocab[docs[i][[i_str]][1,]], collapse = ' ') # 第i个document 
-
-i_topic_idx <- n_big_idx(doc_topic[i,], 1)
-
-
-paste(vocab[n_big_idx(topic_word[i_topic_idx,], n=10)],
-      collapse = ' ')
+# # Sanity check 
+# # i is the index of document 
+# i <- 100
+# i_str <-  as.character(i)
+# paste(vocab[docs[i][[i_str]][1,]], collapse = ' ') # 第i个document 
+# 
+# i_topic_idx <- n_big_idx(doc_topic[i,], 1)
+# 
+# 
+# paste(vocab[n_big_idx(topic_word[i_topic_idx,], n=10)],
+#       collapse = ' ')
 
