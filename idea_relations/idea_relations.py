@@ -205,7 +205,9 @@ def plot_top_pairs(articles, idea_names, prefix, num_ideas,
     info_dict = {k: get_count_cooccur(articles_group[k], func=cooccur_func)
                  for k in articles_group}
     ts_matrix = get_time_series(info_dict, num_ideas=num_ideas, normalize=True)
-    with open(strength_file, 'r') as fin:
+    # with open(strength_file, 'r') as fin:
+    # NOTE changing encoding here
+    with io.open(strength_file, 'r', encoding="utf8") as fin:
         for line in fin:
             parts = line.strip().split("\t")
             if parts[4].startswith("ion,ing,"):
@@ -244,8 +246,10 @@ def plot_pair(ts_matrix, idea_names, fst, snd, category, prefix, output_dir,
               rc=None, fig_size=pf.FIG_SIZE,
               despine=False, ticksize=None, style="white", xlim=None):
     if type(idea_names) == dict:
+        # print("dict branch executed")
         reverse_idea_names = utils.get_reverse_dict(idea_names)
     else:
+        # print("other branch executed")
         reverse_idea_names = {d: i for (i, d) in enumerate(idea_names)}
     xvalues = range(ts_matrix.shape[1])
     filename = "%s/%s_%s_%s_%s.pdf" % (output_dir, prefix, category,
@@ -273,6 +277,8 @@ def plot_pair(ts_matrix, idea_names, fst, snd, category, prefix, output_dir,
         yticklabel=(yticks, yticks)
     else:
         yticklabel=None
+    # print(reverse_idea_names)
+    # print(fst)
     fig = pf.plot_lines([xvalues, xvalues],
                         [ts_matrix[reverse_idea_names[fst],:],
                          ts_matrix[reverse_idea_names[snd], :]],

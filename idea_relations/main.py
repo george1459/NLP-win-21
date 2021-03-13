@@ -109,9 +109,9 @@ def main():
         # load mallet outputs
         articles, vocab, idea_names = mt.load_articles(input_file,
                                                        data_output_dir)
-        print(articles)
-        print(vocab)
-        print(idea_names)
+        # print(articles)
+        # print(vocab)
+        # print(idea_names)
         table_top = 5
     elif option == "keywords":
         logging.info("using keywords to represent ideas")
