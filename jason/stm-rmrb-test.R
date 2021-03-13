@@ -8,7 +8,52 @@ library(gutenbergr)
 library(dplyr)
 library(tidytext)
 library(quanteda)
-library(rjson)
+# library(rjson)
+
+# READ DATA
+# d <- fromJSON(file = "/Users/admin/Desktop/NLP-data/RMRB_5_each_month.jsonlist.json")
+
+
+d <- read_csv("/Users/admin/Desktop/NLP-data/sample_df-V1.csv")
+tidy_d <- d %>%
+  mutate(line = row_number()) %>%
+  unnest_tokens(word, text)
+tidy_d %>%
+  count(word, sort = TRUE)
+
+d_dfm <- tidy_d %>%
+  count(line, word, sort = TRUE) %>%
+  cast_dfm(line, word, n)
+
+# d_sparse <- tidy_d %>%
+#   count(line, word, sort = TRUE) %>%
+#   cast_sparse(line, word, n)
+
+topic_model_d <- stm(d_dfm, K = 10, 
+                   verbose = FALSE, init.type = "Spectral")
+
+td_beta_d <- tidy(topic_model_d) # normalize output as probability
+
+
+
+td_beta_d %>%
+  group_by(topic) %>%
+  top_n(10, beta) %>%
+  ungroup() %>%
+  mutate(topic = paste0("Topic ", topic),
+         term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(term, beta, fill = as.factor(topic))) +
+  geom_col(alpha = 0.8, show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free_y") +
+  coord_flip() +
+  scale_x_reordered() +
+  labs(x = NULL, y = expression(beta),
+       title = "Highest word probabilities for each topic",
+       subtitle = "Different words are associated with different topics") + 
+  theme(text = element_text(family='Kai'))
+
+
+#################################### 
 
 sherlock_raw <- gutenberg_download(1661)
 
@@ -50,6 +95,11 @@ topic_model <- stm(sherlock_dfm, K = 6,
                    verbose = FALSE, init.type = "Spectral")
 
 td_beta <- tidy(topic_model) # normalize output as probability
+
+# beta值就是topic 的probability
+td_beta %>%
+  filter(topic == 1) %>%
+  arrange(desc(beta))
 
 
 td_beta %>%
