@@ -1,3 +1,31 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[]{amsthm} %lets us use \begin{proof}
+\usepackage[]{amssymb} %gives us the character \varnothing
+\usepackage{amsmath}
+%\usepackage[shortlabels]{enumitem}
+\usepackage{CJKutf8}
+\usepackage{float}
+\usepackage{booktabs}
+
+\title{ hw2-part }
+\author{Qitian (Jason) Hu}
+
+
+\linespread{1.5}
+\usepackage[margin=1.2in]{geometry}
+\usepackage{graphicx}
+
+\begin{document}
+\maketitle 
+
+
+
+
+
+
+
 \begin{tabular}{cccp{5cm}p{5cm}}
 \toprule
 combined & pmi & correlation & first & second\\
@@ -211,3 +239,11 @@ combined & pmi & correlation & first & second\\
 -0.039 & 0.321 & -0.121 & 美国, 英国, 法国, 国家, 意大利, 计划, 经济, 巴黎, 欧洲, 说 & 中国, 香港, 国际, 世界, 中, 我国, 文化, 年, 展览, 展览会 \\
 \bottomrule
 \end{tabular}
+
+\end{document}
+
+
+
+
+
+

@@ -10,6 +10,22 @@ library(tidytext)
 library(quanteda)
 library(rjson)
 
+# READ DATA
+# d <- fromJSON(file = "/Users/admin/Desktop/NLP-data/RMRB_5_each_month.jsonlist.json")
+
+
+d <- read_csv("/Users/admin/Desktop/NLP-data/sample_df-V1.csv")
+tidy_d <- d %>%
+  mutate(line = row_number()) %>%
+  unnest_tokens(word, text)
+tidy_d %>%
+  count(word, sort = TRUE)
+
+
+
+
+#################################### 
+
 sherlock_raw <- gutenberg_download(1661)
 
 sherlock <- sherlock_raw %>%
