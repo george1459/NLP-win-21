@@ -1,7 +1,8 @@
 *un~
 
 # Mallet related
-mallet*
+idea_relations/mallet-2.0.8
+idea_relations/mallet-2.0.8.tar.gz
 ._mallet-2.0.8
 
 # Idea relations
@@ -16,6 +17,10 @@ idea_relations/*.bbl
 idea_relations/*.blg
 idea_relations/*.DS_Store
 idea_relations/data
+idea_relations/economic_news/*
+idea_relations/pd_jason/*
+idea_relations/pd_test/*
+
 
 # Latex-related (Shicheng's side)
 Reports/*.aux
@@ -25,3 +30,6 @@ Reports/*.log
 Reports/*.synctex.gz
 
 .DS_Store
+
+github_dowlonad
+.vscode/settings.json
