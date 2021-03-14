@@ -12,29 +12,32 @@ library(tm)
 library(data.table)
 library("rjson")
 
-setwd("/Users/shichengliu/Desktop/College_CS/cs257/NLP-win-21") # working directory
+setwd("/home/shicheng2000/College_CS/cs257/NLP-win-21") # working directory
 # data <- read.csv("/Users/admin/Desktop/NLP-data/sample_df-V1.csv") # input data
-
-data <- data.frame()
-filepath <- "/Users/shichengliu/Desktop/College_CS/cs257/NLP-win-21/idea_relations/data/RMRB_5_each_month.jsonlist"
-
-con = file(filepath, "r")
-while ( TRUE ) {
-  line = readLines(con, n = 1000)
-  
-  if ( length(line) == 0 ) {
-    break
-  }
-  json_data <- fromJSON(line)
-  json_data <- data.frame(json_data)
-  data <- rbind(data, json_data)
-}
-close(con)
+data <- read.csv("/home/shicheng2000/College_CS/cs257/NLP-win-21/idea_relations/data/rmrb_full_df-V1.csv")
+# from 12:03 start read 
 
 
-trial_postfix <- "-test1.csv" # 输出两个文件的后缀
+# data <- data.frame()
+# # filepath <- "/Users/admin/Desktop/NLP-data/RMRB_5_each_month.jsonlist.json"
+# filepath <- '/Users/admin/Desktop/NLP-win-21/idea_relations/data/RMRB_all.jsonlist'
+# 
+# con = file(filepath, "r")
+# while ( TRUE ) {
+#   line = readLines(con, n = 1)
+#   if ( length(line) == 0 ) {
+#     break
+#   }
+#   json_data <- fromJSON(line)
+#   json_data <- data.frame(json_data)
+#   data <- rbind(data, json_data)
+# }
+# close(con)
+
+
+trial_postfix <- "-full_the1.csv" # 输出两个文件的后缀
 n_topic <- 50 
-output_dir <- '/Users/shichengliu/Desktop/College_CS/cs257/NLP-win-21/jason' # output directory name 
+output_dir <- '/home/shicheng2000/NLP-win-21/jason' # output directory name 
 
 n_docs <- length(data[[2]])  
 
@@ -42,13 +45,12 @@ n_docs <- length(data[[2]])
 # PREP 
 data <- transform(data, date = as.numeric(date))
 processed <- textProcessor(data$text, metadata = data) 
-out <- prepDocuments(processed$documents, processed$vocab, processed$meta, 
-                     lower.thresh = 5, upper.thresh = as.integer(n_docs / 2))
-docs <- out$documents 
-n_docs <- length(docs)  
+out <- prepDocuments(processed$documents, processed$vocab, processed$meta)
+                    #  lower.thresh = 5, upper.thresh = as.integer(n_docs / 2))
+n_docs <- length(out$documents)
 
 # vocab <- out$vocab 
-meta <-out$meta 
+# meta <-out$meta 
 
 # Estimate STM 
 stm1 <- stm(documents = out$documents, vocab = out$vocab,
@@ -81,7 +83,7 @@ for (i in c(1:n_topic)) {
 topic_names <- list(topic_names)
 setDT(topic_names)
 fwrite(list(topic_names[[1]]), 
-       file = file.path(output_dir, paste("topic_names", trial_postfix)))
+       file = file.path(output_dir, paste("topic_names", trial_postfix, sep="")))
 
 # 找每个document的topic 
 vocab <- stm1$vocab 
@@ -91,9 +93,9 @@ prob_lim <- .6
 thres <- .01 
 
 # doc_topic[1,] 
-doc_topic_out <- add_column(tibble(doc_topic), meta$date) 
+doc_topic_out <- add_column(tibble(doc_topic), out$meta$date) 
 write.table(doc_topic_out , 
-            file = file.path(output_dir, paste("doc_topic", trial_postfix)) )
+            file = file.path(output_dir, paste("doc_topic", trial_postfix, sep="")))
 
 
 # doc_i <- doc_topic[i,] 
