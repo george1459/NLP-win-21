@@ -14,24 +14,28 @@ library("rjson")
 
 setwd("/Users/admin/Desktop/NLP-win-21/jason") # working directory
 # data <- read.csv("/Users/admin/Desktop/NLP-data/sample_df-V1.csv") # input data
-
-data <- data.frame()
-filepath <- "/Users/admin/Desktop/NLP-data/RMRB_5_each_month.jsonlist.json"
-
-con = file(filepath, "r")
-while ( TRUE ) {
-  line = readLines(con, n = 1)
-  if ( length(line) == 0 ) {
-    break
-  }
-  json_data <- fromJSON(line)
-  json_data <- data.frame(json_data)
-  data <- rbind(data, json_data)
-}
-close(con)
+data <- read.csv("/Users/admin/Desktop/NLP-data/rmrb_full_df-V1.csv")
+# from 12:03 start read 
 
 
-trial_postfix <- "-test1.csv" # 输出两个文件的后缀
+# data <- data.frame()
+# # filepath <- "/Users/admin/Desktop/NLP-data/RMRB_5_each_month.jsonlist.json"
+# filepath <- '/Users/admin/Desktop/NLP-win-21/idea_relations/data/RMRB_all.jsonlist'
+# 
+# con = file(filepath, "r")
+# while ( TRUE ) {
+#   line = readLines(con, n = 1)
+#   if ( length(line) == 0 ) {
+#     break
+#   }
+#   json_data <- fromJSON(line)
+#   json_data <- data.frame(json_data)
+#   data <- rbind(data, json_data)
+# }
+# close(con)
+
+
+trial_postfix <- "-full_thes1.csv" # 输出两个文件的后缀
 n_topic <- 50 
 output_dir <- '' # output directory name 
 
