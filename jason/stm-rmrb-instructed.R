@@ -43,11 +43,10 @@ data <- transform(data, date = as.numeric(date))
 processed <- textProcessor(data$text, metadata = data) 
 out <- prepDocuments(processed$documents, processed$vocab, processed$meta, 
                      lower.thresh = 5, upper.thresh = as.integer(n_docs / 2))
-docs <- out$documents 
-n_docs <- length(docs)  
+n_docs <- length(out$documents )  
 
 # vocab <- out$vocab 
-meta <-out$meta 
+# meta <-out$meta 
 
 # Estimate STM 
 stm1 <- stm(documents = out$documents, vocab = out$vocab,
@@ -90,7 +89,7 @@ prob_lim <- .6
 thres <- .01 
 
 # doc_topic[1,] 
-doc_topic_out <- add_column(tibble(doc_topic), meta$date) 
+doc_topic_out <- add_column(tibble(doc_topic), out$meta$date) 
 write.table(doc_topic_out , 
             file = file.path(output_dir, paste("doc_topic", trial_postfix)) )
 
