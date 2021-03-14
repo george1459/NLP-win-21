@@ -44,10 +44,19 @@ n_docs <- length(data[[2]])
 
 # PREP 
 data <- transform(data, date = as.numeric(date))
+<<<<<<< Updated upstream
 processed <- textProcessor(data$text, metadata = data) 
 out <- prepDocuments(processed$documents, processed$vocab, processed$meta)
                     #  lower.thresh = 5, upper.thresh = as.integer(n_docs / 2))
 n_docs <- length(out$documents)
+=======
+processed <- textProcessor(data$text, metadata = data, 
+                           removestopwords = FALSE, removenumbers = FALSE, removepunctuation = FALSE,
+                           lowercase = FALSE, stem = FALSE) 
+out <- prepDocuments(processed$documents, processed$vocab, processed$meta, 
+                     lower.thresh = 10, upper.thresh = as.integer(n_docs / 2))
+n_docs <- length(out$documents )  
+>>>>>>> Stashed changes
 
 # vocab <- out$vocab 
 # meta <-out$meta 
@@ -76,7 +85,9 @@ topic_names = c(1:n_topic)
 names(topic_names) = c(1:n_topic)
 for (i in c(1:n_topic)) {
   # print(i)
-  topic_names[i] = paste(vocab[n_big_idx(topic_word[i,], n=n_topic)],
+  idxs <- n_big_idx(topic_word[i,], n=n_topic) 
+  
+  topic_names[i] = paste(vocab[idxs],
                          collapse = ' ')
 }
 
