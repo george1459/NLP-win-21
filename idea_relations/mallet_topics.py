@@ -31,6 +31,9 @@ def get_mallet_input_from_words(input_file, data_dir, vocab_size=10000):
         wc.find_bigrams(input_file, bigram_file)
     else:
         print("get_mallet_input_from_words: bigram file found at: {}, skipping".format(bigram_file))
+    if os.path.exists("%s/data.word_id.dict" % data_dir) and os.path.exists("%s/data.input" % data_dir):
+        print("get_mallet_input_from_words: both data.word_id.dict and data.input found, skipping")
+        return
     bigram_dict = wc.load_bigrams(bigram_file)
     word_cnts = wc.get_word_count(input_file, bigram_dict=bigram_dict,
                                   words_func=wc.get_mixed_tokens)
