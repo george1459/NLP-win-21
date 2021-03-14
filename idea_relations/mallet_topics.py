@@ -11,21 +11,26 @@ import utils
 def convert_word_count_mallet(word_dict, input_file, output_file,
                               words_func=None):
     doc_id = 0
-    with open(output_file, "w") as fout:
-        for data in utils.read_json_list(input_file):
-            doc_id += 1
-            words = collections.Counter(words_func(data["text"]))
-            words = [(word_dict[w], words[w])
-                     for w in words if w in word_dict]
-            words.sort()
-            word_cnts = [" ".join([str(wid)] * cnt) for (wid, cnt) in words]
-            fout.write("%s %s %s\n" % (doc_id, data["date"], " ".join(word_cnts)))
+    if not os.path.exists(output_file):
+        with open(output_file, "w") as fout:
+            for data in utils.read_json_list(input_file):
+                doc_id += 1
+                words = collections.Counter(words_func(data["text"]))
+                words = [(word_dict[w], words[w])
+                        for w in words if w in word_dict]
+                words.sort()
+                word_cnts = [" ".join([str(wid)] * cnt) for (wid, cnt) in words]
+                fout.write("%s %s %s\n" % (doc_id, data["date"], " ".join(word_cnts)))
+    else:
+        print("convert_word_count_mallet: output file found at: {}, skipping".format(output_file))
 
 
 def get_mallet_input_from_words(input_file, data_dir, vocab_size=10000):
     bigram_file = "%s/bigram_phrases.txt" % data_dir
     if not os.path.exists(bigram_file):
         wc.find_bigrams(input_file, bigram_file)
+    else:
+        print("get_mallet_input_from_words: bigram file found at: {}, skipping".format(bigram_file))
     bigram_dict = wc.load_bigrams(bigram_file)
     word_cnts = wc.get_word_count(input_file, bigram_dict=bigram_dict,
                                   words_func=wc.get_mixed_tokens)
