@@ -12,15 +12,16 @@ library(tm)
 library(data.table)
 library("rjson")
 
-setwd("/Users/admin/Desktop/NLP-win-21/jason") # working directory
+setwd("/Users/shichengliu/Desktop/College_CS/cs257/NLP-win-21") # working directory
 # data <- read.csv("/Users/admin/Desktop/NLP-data/sample_df-V1.csv") # input data
 
 data <- data.frame()
-filepath <- "/Users/admin/Desktop/NLP-data/RMRB_5_each_month.jsonlist.json"
+filepath <- "/Users/shichengliu/Desktop/College_CS/cs257/NLP-win-21/idea_relations/data/RMRB_5_each_month.jsonlist"
 
 con = file(filepath, "r")
 while ( TRUE ) {
-  line = readLines(con, n = 1)
+  line = readLines(con, n = 1000)
+  
   if ( length(line) == 0 ) {
     break
   }
@@ -33,15 +34,13 @@ close(con)
 
 trial_postfix <- "-test1.csv" # 输出两个文件的后缀
 n_topic <- 50 
-output_dir <- '' # output directory name 
+output_dir <- '/Users/shichengliu/Desktop/College_CS/cs257/NLP-win-21/jason' # output directory name 
 
 n_docs <- length(data[[2]])  
 
 
-
-
-
 # PREP 
+data <- transform(data, date = as.numeric(date))
 processed <- textProcessor(data$text, metadata = data) 
 out <- prepDocuments(processed$documents, processed$vocab, processed$meta, 
                      lower.thresh = 5, upper.thresh = as.integer(n_docs / 2))
