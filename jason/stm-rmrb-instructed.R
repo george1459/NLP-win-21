@@ -38,10 +38,8 @@ output_dir <- '' # output directory name
 n_docs <- length(data[[2]])  
 
 
-
-
-
 # PREP 
+data <- transform(data, date = as.numeric(date))
 processed <- textProcessor(data$text, metadata = data) 
 out <- prepDocuments(processed$documents, processed$vocab, processed$meta, 
                      lower.thresh = 5, upper.thresh = as.integer(n_docs / 2))
