@@ -15,6 +15,7 @@ library("rjson")
 setwd("/home/shicheng2000/College_CS/cs257/NLP-win-21") # working directory
 # data <- read.csv("/Users/admin/Desktop/NLP-data/sample_df-V1.csv") # input data
 data <- read.csv("/home/shicheng2000/College_CS/cs257/NLP-win-21/idea_relations/data/rmrb_full_df-V1.csv")
+# data <- read.csv('/Users/admin/Desktop/NLP-win-21/idea_relations/data/rmrb_full_df-V1-p10sample.csv')
 # from 12:03 start read 
 
 
@@ -40,10 +41,9 @@ n_topic <- 50
 topic_name_len <- 10
 output_dir <- '/home/shicheng2000/NLP-win-21/jason' # output directory name 
 
-n_docs <- length(data[[2]])  
-
 
 # PREP 
+n_docs <- length(data[[2]])  
 data <- transform(data, date = as.numeric(date))
 processed <- textProcessor(data$text, metadata = data, 
                            removestopwords = FALSE, removenumbers = FALSE, removepunctuation = FALSE,
@@ -52,7 +52,13 @@ rm(data)
 out <- prepDocuments(processed$documents, processed$vocab, processed$meta, 
                      lower.thresh = 10, upper.thresh = as.integer(n_docs / 2))
 rm(processed)
-n_docs <- length(out$documents )
+# meta <- out$meta 
+# meta_2 <- subset (meta, select = -id)
+# write.table(meta_2, 
+#             file = file.path("/Users/admin/Desktop/NLP-win-21/idea_relations/data", 
+#             "rmrb_full_df-V1-p10sample-pruned.csv"))
+
+n_docs <- length(out$documents) 
 
 # vocab <- out$vocab 
 # meta <-out$meta 
