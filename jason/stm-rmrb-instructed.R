@@ -32,7 +32,7 @@ data <- read.csv("/home/shicheng2000/College_CS/cs257/NLP-win-21/idea_relations/
 #   json_data <- data.frame(json_data)
 #   data <- rbind(data, json_data)
 # }
-# close(con)
+# close(con) 
 
 
 trial_postfix <- "-full_the1.csv" # 输出两个文件的后缀
@@ -48,9 +48,11 @@ data <- transform(data, date = as.numeric(date))
 processed <- textProcessor(data$text, metadata = data, 
                            removestopwords = FALSE, removenumbers = FALSE, removepunctuation = FALSE,
                            lowercase = FALSE, stem = FALSE) 
+rm(data)
 out <- prepDocuments(processed$documents, processed$vocab, processed$meta, 
                      lower.thresh = 10, upper.thresh = as.integer(n_docs / 2))
-n_docs <- length(out$documents )  
+rm(processed)
+n_docs <- length(out$documents )
 
 # vocab <- out$vocab 
 # meta <-out$meta 
@@ -62,7 +64,7 @@ stm1 <- stm(documents = out$documents, vocab = out$vocab,
              init.type = "Spectral")
 # mu <- stm1$mu
 # sigma <- stm1$sigma 
-print("time used in topic modelling")
+print("time used in topic modelling") 
 print(stm1$time)
 vocab <- stm1$vocab 
 
@@ -77,6 +79,10 @@ topic_word <- beta$logbeta[[1]]
 
 topic_names = c(1:n_topic)
 names(topic_names) = c(1:n_topic)
+
+# library(progress)
+# pb <- progress_bar$new(total = n_topic)
+
 for (i in c(1:n_topic)) {
   # print(i)
   idxs <- n_big_idx(topic_word[i,], n=topic_name_len) 
