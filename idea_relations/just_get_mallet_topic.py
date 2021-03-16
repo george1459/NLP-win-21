@@ -68,4 +68,4 @@ def check_mallet_directory(directory):
                for filename in [vocab_file, doc_topic_file, topic_word_file]])
 
 if __name__ == "__main__":
-    load_articles("/mnt/disks/sdb/data/RMRB_all.jsonlist", "/mnt/disks/sdb/data/RMRB_plotting")
+    load_articles("/mnt/disks/sdb/data/RMRB_all.jsonlist", "/mnt/disks/sdb/data/RMRB_plotting/processing")
