@@ -1,0 +1,50 @@
+0 object,attribute,image,description,visual,set,model,property,game,location
+1 topic,model,distribution,word,document,prior,lda,parameter,number,probability
+2 discourse,plan,action,utterance,speaker,goal,model,agent,belief,focus
+3 similarity,pair,paraphrase,measure,method,semantic,two,using,lexical,set
+4 segment,speech,boundary,segmentation,utterance,word,speaker,spoken,cue,acoustic
+5 rule,derivation,grammar,span,figure,forest,set,syntactic,example,algorithm
+6 state,string,sequence,input,path,transition,lattice,figure,transducer,output
+7 document,query,term,retrieval,result,page,collection,information,web,information retrieval
+8 mention,antecedent,pronoun,coreference,system,coreference resolution,entity,resolution,model,approach
+9 parser,parsing,sentence,grammar,parse,constituent,category,result,par,syntactic
+10 dependency,parsing,parser,model,tree,head,sentence,word,structure,accuracy
+11 one,would,case,may,problem,also,example,could,work,however
+12 language,word,character,morphological,transliteration,english,arabic,morpheme,system,letter
+13 word,context,corpus,used,lexicon,number,dictionary,method,frequency,text
+14 feature,set,training,model,baseline,use,data,using,used,table
+15 tree,node,structure,figure,child,fragment,tag,set,root,parent
+16 algorithm,time,number,search,cost,method,set,size,figure,update
+17 sense,sens,concept,wordnet,semantic,word,lexical,wsd,wikipedia,sense disambiguation
+18 structure,constraint,type,grammar,information,order,feature,lexical,rule,generation
+19 language,alignment,translation,english,pair,word,source,target,corpus,bilingual
+20 user,tweet,text,post,twitter,message,author,data,story,social
+21 sentiment,opinion,review,polarity,aspect,negative,positive,sentence,product,lexicon
+22 graph,constraint,edge,problem,algorithm,inference,node,set,variable,weight
+23 grammar,set,rule,language,parsing,string,algorithm,derivation,form,let
+24 class,category,label,ffi ffi,ffi,instance,item,actor,member,e.g.
+25 system,score,evaluation,metric,hypothesis,output,set,candidate,combination,reference
+26 annotation,corpus,annotator,data,text,task,annotated,evaluation,agreement,language
+27 method,chinese,proposed,two,candidate,table,one,performance,based,different
+28 tag,model,tagging,sequence,word,token,segmentation,label,tagger,training
+29 proceeding,2010,computational linguistics,2009,association,page,2011,2008,2012,model
+30 relation,entity,type,extraction,name,mention,system,named entity,information,example
+31 sentence,summary,text,summarization,document,system,content,generation,article,compression
+32 data,training,domain,set,learning,labeled,method,unlabeled,example,using
+33 translation,phrase,model,sentence,word,source,system,statistical machine,training,reordering
+34 model,probability,language,training,parameter,data,using,set,estimate,distribution
+35 verb,noun,sentence,case,phrase,syntactic,example,adjective,subject,analysis
+36 user,system,dialogue,utterance,task,information,response,action,turn,student
+37 argument,predicate,frame,verb,role,semantic role,semantic,syntactic,system,srl
+38 error,system,correction,data,correct,set,language,essay,text,sentence
+39 system,ion,ing,input,knowledge,process,language,sentence,natural language,information
+40 event,relation,discourse,temporal,time,text,clause,sentence,two,unit
+41 vector,model,word,representation,matrix,space,semantic,network,task,learning
+42 pattern,extraction,term,precision,seed,extracted,web,set,instance,candidate
+43 question,answer,template,system,question answering,type,candidate,set,trec,correct
+44 table,accuracy,set,system,type,performance,unsupervised,result,using,baseline
+45 classifier,classification,kernel,task,feature,learning,training,using,accuracy,svm
+46 semantic,sentence,meaning,representation,semantics,predicate,example,set,interpretation,logical form
+47 number,value,corpus,measure,figure,data,frequency,language,study,result
+48 table,set,result,score,0.00,performance,average,0.01,method,precision
+49 cluster,clustering,algorithm,number,unsupervised,method,set,hierarchical,evaluation,two
