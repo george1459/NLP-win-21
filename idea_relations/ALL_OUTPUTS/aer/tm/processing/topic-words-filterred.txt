@@ -1,0 +1,50 @@
+0 rate,rates,growth,policy,interest,output,real,shock,uncertainty,monetary policy
+1 con ict,groups,group,ethnic,violence,cant,level,language,country,political
+2 model,data,parameters,value,distribution,models,parameter,estimate,function,values
+3 returns,stock,asset,market,equity,risk,return,investors,assets,time
+4 crime,stations,state,drug,station,threshold,rates,percent,rate,corruption
+5 effects,estimates,effect,estimate,results,sample,year,column,cant,estimated
+6 percent,year,papers,research,economics,members,data,published,time,years
+7 subjects,game,player,players,subject,behavior,games,treatment,percent,experiment
+8 vote,party,voters,voting,political,election,candidates,votes,elections,candidate
+9 workers,job,worker,unemployment,wage,jobs,rate,employment,employer,search
+10 land,agricultural,county,rural,village,farmers,counties,production,farm,farms
+11 housing,house,patent,price,patents,prices,mortgage,home,market,year
+12 tax,state,taxes,states,income,rate,rates,year,reform,government
+13 information,beliefs,signal,state,probability,prior,belief,action,agents,model
+14 day,days,week,date,daily,month,order,average,return,time
+15 skill,labor,workers,human capital,education,wage,high,occupations,wages,relative
+16 survey,respondents,participants,questions,news,individuals,online,asked,would,question
+17 private,public,value,funds,spending,assets,fund,performance,year,size
+18 local,population,city,cities,areas,distance,location,area,regions,number
+19 policy,may,also,policies,new,system,important,economic,rule,tion
+20 firms,first,firm,find,significant,specific,fixed,financial,fixed effects,benefits
+21 period,percent,year,change,changes,time,years,data,increase,decline
+22 time,period,new,value,exit,rate,innovation,adoption,state,future
+23 productivity,sector,industry,output,level,sectors,growth,share,manufacturing,production
+24 children,child,income,education,family,health,birth,age,parents,families
+25 risk,plan,insurance,plans,cost,health,costs,individuals,percent,coverage
+26 treatment,group,program,control,percent,effect,results,applicants,experimental,test
+27 income,households,household,consumption,wealth,percent,spending,share,insurance,welfare
+28 countries,country,per,growth,data,world,income,factor,across,international
+29 would,one,could,may,time,many,much,example,even,might
+30 hat,wit,ment,data,ent,bet,int,rat,set,hey
+31 equilibrium,case,one,model,two,given,also,function,optimal,show
+32 emissions,energy,electricity,plant,pollution,plants,damages,vehicle,fuel,vehicles
+33 debt,default,government,period,crisis,interest,bonds,risk,rate,bond
+34 ing,per,con,ion,par,one,var,pre,ice,ver
+35 school,schools,students,teacher,teachers,year,student,peer,test scores,grade
+36 wage,labor,employment,wages,hours,workers,work,time,earnings,market
+37 price,prices,consumers,goods,consumer,product,search,demand,products,pricing
+38 age,earnings,women,rates,individuals,years,men,rate,year,mortality
+39 agents,agent,contract,optimal,effort,type,contracts,period,principal,types
+40 buyers,buyer,market,offer,pro,price,seller,type,offers,trade
+41 percent,data,also,results,average,two,sample,one,across,different
+42 banks,bank,credit,loan,loans,deposits,shock,rate,lending,interest
+43 utility,choice,preferences,risk,choices,preference,set,individual,function,probability
+44 market,demand,cost,markets,costs,product,pro,consumers,entry,competition
+45 students,student,school,rank,preferences,schools,matching,assignment,mechanism,match
+46 capital,investment,rate,economy,aggregate,consumption,risk,labor,real,model
+47 auction,bid,mechanism,value,price,entry,expected,project,auctions,revenue
+48 trade,foreign,import,imports,exchange rate,export,country,domestic,exports,tariff
+49 network,hospital,patients,patient,hospitals,networks,quality,exchange,care,physicians
