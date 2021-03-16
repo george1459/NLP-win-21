@@ -6,6 +6,7 @@ import functools
 import numpy as np
 import word_count as wc
 import utils
+import io
 
 
 def convert_word_count_mallet(word_dict, input_file, output_file,
@@ -65,6 +66,8 @@ def load_topic_words(vocab, input_file, top=10):
 def load_doc_topics(input_file, doc_topic_file, threshold=0.01):
     """Load topics in each document"""
     articles = []
+    # fd = open(doc_topic_output_file, "w")
+    # print("opening {}".format(doc_topic_output_file))
     with open(doc_topic_file) as tfin:
         for data in utils.read_json_list(input_file):
             topic_line = tfin.readline()
@@ -75,6 +78,9 @@ def load_doc_topics(input_file, doc_topic_file, threshold=0.01):
                          if float(v) > threshold])
             articles.append(utils.IdeaArticle(fulldate=int(data["date"]),
                                          ideas=ideas))
+    #         fd.write('{},"{}"\n'.format(int(data["date"]), list(ideas)))
+    #         print('{},"{}"\n'.format(int(data["date"]), list(ideas)))
+    # fd.close()
     return articles
 
 
@@ -82,9 +88,18 @@ def load_articles(input_file, topic_dir):
     vocab_file = "%s/data.word_id.dict" % topic_dir
     doc_topic_file = "%s/doc-topics.gz" % topic_dir
     topic_word_file = "%s/topic-words.gz" % topic_dir
+    doc_topic_output_file = "%s/doc-topic-filterred.txt" % topic_dir
     vocab = utils.read_word_dict(vocab_file)
     topic_map = load_topic_words(vocab, topic_word_file)
     articles = load_doc_topics(input_file, doc_topic_file)
+    with io.open(doc_topic_output_file, "w") as fd:
+        for article in articles:
+            fd.write(u'{},"{}"\n'.format(article.fulldate, list(article.ideas)))
+
+    with io.open("%s/topic-words-filterred.txt" % topic_dir, "w", encoding="utf8") as fd:
+        for key, value in topic_map.items():
+            fd.write(u"{} {}\n".format(key, value))
+            
     return articles, vocab, topic_map
 
 
