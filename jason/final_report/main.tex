@@ -1,0 +1,234 @@
+%
+% File acl2021.tex
+%
+%% Based on the style files for EMNLP 2020, which were
+%% Based on the style files for ACL 2020, which were
+%% Based on the style files for ACL 2018, NAACL 2018/19, which were
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2021}
+\usepackage{times}
+\usepackage{latexsym}
+\renewcommand{\UrlFont}{\ttfamily\small}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+%\aclfinalcopy % Uncomment this line for the final submission
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B\textsc{ib}\TeX}
+\definecolor{green(html/cssgreen)}{rgb}{0.0, 0.5, 0.0}
+\newcommand\boldfriend[1]{\textcolor{green(html/cssgreen)}{\textbf{#1}}}
+\definecolor{red-brown}{rgb}{0.65, 0.16, 0.16}
+\newcommand\boldhead[1]{\textcolor{red-brown}{\textbf{#1}}}
+\definecolor{pinksherbet}{rgb}{0.97, 0.56, 0.65}
+\newcommand\boldtryst[1]{\textcolor{pinksherbet}{\textbf{#1}}}
+\definecolor{blue(ncs)}{rgb}{0.0, 0.53, 0.74}
+\newcommand\boldarms[1]{\textcolor{blue(ncs)}{\textbf{#1}}}
+
+\title{Characterization of Idea Relations in Text: Investigation with Topic Modelling and Structural Topic Modelling}
+
+\author{Yijie Yao, Qitian Hu, Shicheng Liu\\
+Team: Mission Inspiring God \\
+The University of Chicago  \\
+%   Affiliation / Address line 2 \\
+%   Affiliation / Address line 3 \\
+  \texttt{\{yjyao, jasonhu, shicheng2000\}@uchicago.edu} \\}
+%   \And
+%   Qitian Hu \\
+%   Affiliation / Address line 1 \\
+%   Affiliation / Address line 2 \\
+%   Affiliation / Address line 3 \\
+%   \texttt{email@domain} \\
+ 
+%   \And
+%   Second Author \\
+%   Affiliation / Address line 1 \\
+%   Affiliation / Address line 2 \\
+%   Affiliation / Address line 3 \\
+%   \texttt{email@domain} \\}
+
+\aclfinalcopy
+
+
+\begin{document}
+\maketitle
+\begin{abstract}
+In the past weeks, members of the Team Mission Inspiring God have been able to 
+complete the following tasks: (1) replicate results of the initial Idea Relation paper
+\citet{chenhao-idea-relations} on its analysis of ACL text; (2) apply the same paper's 
+proposed framework on a set of economic news data \cite{econ-news-dataset} and 
+analyze the results; (3) We have further explored our intended research directions to make extensions on the existing topic models by reading recent developments.
+\end{abstract}
+
+
+\section{Introduction}
+
+\section{Computational Framework}
+
+\section{Result Replication}
+
+A list of the main empirical results presented in the paper to be replicated
+\cite{chenhao-idea-relations} follows:
+
+\begin{enumerate}
+  \item Figure 1 on \textbf{News Articles}
+  \item Figure 3 on \textbf{News Articles} (topic: Terrorism and Immigration)
+   and \textbf{Research Papers} (topic: ACL)
+  \item Section 4.1, 4.2, Figure 5, Figure 6, Figure 7 and Table 1 on 
+  \textbf{News Articles} (topic: Terrorism and Immigration)
+  \item Section 4.3, Figure 8 and Figure 9 on \textbf{Research Papers} 
+  (topic: ACL)
+\end{enumerate}
+
+% Among these, the \textbf{Research Papers} dataset is provided and can be downloaded. 
+% The \textbf{News Articles} needs further investigation (it seems on the 
+% project list guideline, replicating results on \textbf{Research Papers}
+% would suffice for the minimum requirement. However, we believe it would be
+% worthwhile replicating/exploring the \textbf{News Articles} as well.)
+
+% We were able to download the open-sourced code and have begun the first phase of replicating
+% the results of the paper. In particular, we focused on replicating part of (4)
+% of the above list. It seems simply re-running the provided `example.sh'
+% (no matter with `num\_ideas' equal to 50 or 100)
+% file with the downloaded ACL dataset does not give the same result as the
+% relationship graph in Figure 8 (seems like the output contains very different
+% words as the ones mentioned in the paper - `machine translation', 
+% `sentiment analysis', `word alignment', `discourse (coherence)', and 
+% `rule, forest methods'). Thus, this will need further inspection. We'll continue
+% the investigation of potentials reasons for these different results. We will reach out to Professor Tan if this issue remains unsolved.
+
+Following discussions with Chenhao, we decided that it is most worthwhile to replicate
+results associated with Bullet Point (4) because the \textbf{News Articles} dataset
+is not directly available and requires additional scrutiny to obtain. Further,
+one main contribution of Chenhao's work was to propose this
+novel framework. As a consequence, full replication of all the results
+does not seem necessary. Instead, we believe it would be more
+beneficial and interesting to apply this framework on different sets
+of input corpus.
+
+Using the provided code 
+and dataset in the initial paper, we were able to replicate results that are
+very similar to ones related to (4) as presented in the paper.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llrr}
+\hline
+\textbf{Ori.} & \textbf{Rep.} & \textbf{First}                                                  & \textbf{Second}                                                 \\ \hline
+\multicolumn{4}{c}{\boldfriend{Friendship}}                                                                                                                       \\ \hline
+1             & 1             & \begin{tabular}[c]{@{}r@{}}word \\ alignment\end{tabular}       & \begin{tabular}[c]{@{}r@{}}machine \\ translation\end{tabular}  \\ \hline
+\multicolumn{4}{c}{\boldarms{Arms-race}}                                                                                                                          \\ \hline
+1             & 1             & \begin{tabular}[c]{@{}r@{}}sentiment \\ analysis\end{tabular}   & \begin{tabular}[c]{@{}r@{}}machine \\ translation\end{tabular}  \\
+2             & 3             & \begin{tabular}[c]{@{}r@{}}sentiment \\ analysis\end{tabular}   & \begin{tabular}[c]{@{}r@{}}word \\ alignment\end{tabular}       \\
+23            & 38            & \begin{tabular}[c]{@{}r@{}}rule,forest\\ methods\end{tabular}   & \begin{tabular}[c]{@{}r@{}}discourse\\ (coherence)\end{tabular} \\ \hline
+\multicolumn{4}{c}{\boldhead{Head-to-head}}                                                                                                                       \\ \hline
+1             & 3             & \begin{tabular}[c]{@{}r@{}}discourse\\ (coherence)\end{tabular} & \begin{tabular}[c]{@{}r@{}}machine \\ translation\end{tabular}  \\
+7             & Missing       & \begin{tabular}[c]{@{}r@{}}discourse\\ (coherence)\end{tabular} & \begin{tabular}[c]{@{}r@{}}word \\ alignment\end{tabular}       \\
+38            & Missing       & \begin{tabular}[c]{@{}r@{}}rule,forest\\ methods\end{tabular}   & \begin{tabular}[c]{@{}r@{}}sentiment \\ analysis\end{tabular}   \\ \hline
+\multicolumn{4}{c}{\boldtryst{Tryst}}                                                                                                                       \\ \hline
+5             & 3             & \begin{tabular}[c]{@{}r@{}}rule,forest\\ methods\end{tabular}   & \begin{tabular}[c]{@{}r@{}}machine \\ translation\end{tabular} 
+\end{tabular}
+\caption{Result replication of the ACL-related data presented in Figure 8 of \citet{chenhao-idea-relations}. Column `\textbf{Ori.}' denotes the ranking of the relation as presented in \citet{chenhao-idea-relations} while column `\textbf{Rep.}` denotes the ranking of the same relation in our experiment.}
+\label{tab:rep-rank-comp}
+\end{table}
+
+
+\begin{table*}[]
+\centering
+\begin{tabular}{llr}
+\hline
+\multicolumn{1}{c}{\textbf{Identified Topic}} & \hphantom{AAA} & \multicolumn{1}{c}{\textbf{Associated Topic Words}}                                                                                                 \\ \hline
+machine translation                           &                & \begin{tabular}[c]{@{}r@{}}translation, phrase, source, statistical machine, \\ translation., system, mt, target, reordering, sentence\end{tabular} \\
+sentiment analysis                            &                & \begin{tabular}[c]{@{}r@{}}sentiment, opinion, positive, negative, polarity, \\ reviews, review, words, aspect, product\end{tabular}                \\
+word alignment                                &                & \begin{tabular}[c]{@{}r@{}}alignment, word, alignments, aligned, sentence, pairs, \\ paraphrases, words, paraphrase, pair\end{tabular}              \\
+discourse (coherence)                         &                & \begin{tabular}[c]{@{}r@{}}discourse, text, structure, relations, two, \\ coherence, relation, focus, discourse., cue\end{tabular}                  \\
+rule,forest methods                           &                & \begin{tabular}[c]{@{}r@{}}rules, rule, rules., derivation, rules, , \\ set, figure, derivations, forest, synchronous\end{tabular}                  \\ \hline
+\end{tabular}
+\caption{The set of topic words for each relation that appears in Table \ref{tab:rep-rank-comp}.}
+\label{tab:rep-topic-word}
+\end{table*}
+
+Running the \textbf{topic} method as described in Chenhao's work \cite{chenhao-idea-relations}, we obtain a set of topics that are \textit{associated} with particular topic words as determined by LDA \cite{Blei-LDA}. The code outputs the top $50$ relations for each of the proposed idea relations: \boldfriend{Friendship}, \boldhead{Head-to-head}, \boldtryst{Tryst}, \boldarms{Arms-race}. Each of the two topics in these relations are represented by a set of words. We then need to manually name these topics and identify their associations.
+
+Results of our experiment are shown in Table \ref{tab:rep-rank-comp}, which compares our result with the presented result. For details on which topic words are identified with what relations, see Table \ref{tab:rep-topic-word}. Table \ref{tab:rep-rank-comp} shows that for the most part, our results line up well with the ones presented in the original paper with slight differences (most notably on the two \boldhead{Head-to-head} relations that were not found in the Top 50 results in our run). This could be due to randomness introduced in the topic modelling process but needs further investigation.
+
+Notably, the association between identified topic and associated topic words also differs slightly with that presented in the original paper. In caption of Figure 8, \citet{chenhao-idea-relations} identifies the \textbf{rule, forest methods} topic with `rule, grammar, derivation, span, algorithm, forest, parsing, figure, set, string', which differs from the result of our experiment - `rules, rule, rules., derivation, rules, ,set, figure, derivations, forest, synchronous'.
+
+In our final report, we will also provide our replicated version of Figure 9 in \citet{chenhao-idea-relations}. This needs to be fine-tuned because the figures generated directly from LaTeX script are too corase for presentation.
+
+In conclusion, we have successfully replicated the ACL results presented in \citet{chenhao-idea-relations}. The presented results mostly match up with our experiment. 
+
+
+\section{Application on Economic News}
+We are interested in how idea relations evolve in the news that reflect the US economy. We applied the open-sourced code in \citet{chenhao-idea-relations} to a dataset of economic news. This data set \cite{econ-news-dataset} consists of news articles that are regarded relevant to the US economy, spanning from 1951 to 2014. The dataset was originally used for sentiment analysis. 
+
+\subsection{Observation I: Economic Intuition Confirmed}
+The topics we found seem to confirm to the basic economic intuition. Here are some examples: 
+
+``inflation, prices, price, consumer, increase, increases, rate, rise, rising, higher"
+\textbf{and} 
+``would, house, bill, congress, senate, committee, legislation, plan, proposed, members" are in a
+\boldhead{head-to-head} relation (ranked 47). We see that the first group points to topics of rising price/inflation, and the second group points to the topic of government. These two topics are anti-correlated over time. This head-to-head relation makes sense because usually governments including the US can employ a contractionary monetary policy to fight inflation. So such anti-correlation seems to show such head-to-head tension.  
+
+``sales, auto, retailers, stores, retail, consumers, car, industry, cars, consumer" 
+\textbf{and}
+``government, program, new, help, federal, make, programs, health, financial, could" are in a \boldarms{arms-race} relation (ranked 19). The first group points to the topic of auto industry, and the second group points to topic of government assistance program. These two topic correlate over time but unlikely to co-occur. Because when the auto industry is at its prime time, the industry does not need government assistance. When the government assistance comes to play greater role, it usually indicates a struggling auto industry. They are indeed correlated over time but unlikely to co-occur. 
+
+``economic, world, global, markets, china, countries, european, international, asian, financial"
+\textbf{and} 
+``billion, deficit, billion, , record, last, exports, trade deficit, imports, billion, year" are in a \boldtryst{tryst} relation (ranked 26). The first group indicates topic of trade with Asia and Europe. The second group points to trade deficit. These two topics are likely to co-occur, because when there is trade then there is trade deficit on one side. It also confirms their anti-correlated relationship, because a high US trade deficit would lead to protectionism in trade that will negatively impact the already-existing trade patterns and volumes. 
+
+
+
+
+\subsection{Observation II : Problematic Observations and Probable Causes} 
+There are too many groups of words that point to similar topics. In the example below, all three topics look the same. In the ACL results that we replicated, each group of words seems to point to a unique topic. 
+
+\begin{enumerate}
+    \item `market, average, today, new york, , stock, new, high, week, list, gains' (appear in Rank 1 relation in \boldfriend{Friendship})
+    \item `stock, market, points, new york, dow jones, volume, new york, , stocks, average, point' (appear in Rank 1 relation in \boldfriend{Friendship})
+    \item `index, dow jones, stocks, industrial average, investors, fell, rose, points, , stock, points` (appear in Rank 1 relation in \boldhead{Head-to-head}
+\end{enumerate}
+
+Although there are differences in words like dow jones, stock, and fell, but they are all closely linked to the stock market and are too similar to provide an meaningful interpretations. Here are some reasons for this. 
+First, it might be due to the nature of short economic news. The topics of economic briefings are very limited and this intrinsic lack of diversity lead to a lack of diversity in topics. Second, the lack of diversity of topics might be caused by the length of the individual article. Each economic news here is significantly shorter than an ACL paper. So the conciseness of the article doesn't allow the topics related to stock markets to dive into deeper subtopics. Due to these reasons, we will move to more complex corpus in our next step.
+
+\subsection{Next Step}
+\subsubsection{Explore a new corpus}
+
+The first new corpus we might try is American Economic Reviews. Chenhao proposed this idea to us to run our model on the American Econoic Review, one of the most prestigious journal in Economics representative to the intellectual history of the field. We found that the articles are available online from the 1990s to the 2020s. We will explore if we can download these journals and extract text data from them. 
+
+The second is People’s Daily. It is one of the most accurate representations of the Chinese government’s self-perception, policy, and ideology. It would be worthwhile to use the framework of idea relations to see the change of popular ideas and arguments in the history of modern China. The data set is composed of the People’s daily from 1950 to 2010, across 60 years and is readily collected.
+
+We will evaluate which one of the two options is more feasible given the limit time frame of the final project. We will proceed further with one and provide more analysis. 
+
+
+
+\subsubsection{Other next steps}
+We have explored another topic modeling method specified in Chenhao's past paper \cite{Card_2018}. Built on LDA, its variants, and VAE, the article develops a framework that can not only capture meaningful topics from documents, but can also incorporate information of metadata like time, tone of writing, etc. The extra information will be useful when analyzing corpus like People's Daily, whose tone, content, and topics vary a lot through time. We also face some challenges dealing with the deep learning framework that we are not familiar with and insufficient background LDA literature. We hope to incorporate this or other topic modelling method in the final presentation. 
+
+
+
+\bibliographystyle{acl_natbib}
+\bibliography{ours}
+
+
+\end{document}

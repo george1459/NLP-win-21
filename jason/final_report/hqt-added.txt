@@ -1,0 +1,22 @@
+
+
+\section{further exploration}
+
+Using structural topic models, we already observe interesting results on AER and People's Daily corpora, but further modifications could be made to facilitate research using the idea relations framework. 
+
+\begin{enumerate}
+  \item Different metadata. Like most real-life corpora, AER and People's Daily have numerous metadata available. For example, each People's Daily article has author, section, number of words, day in week, tone, etc. Adding these information as metadata in sTM could help us find more details in the historical ideas. 
+  \item More textual information. With the goal to understand the change in PRC policy and ideology, we can add more text from other sources, like government announcements, other newspapers, and everyday writings of people. They could provide a more comprehensive view to the society while adding risks of mixing words with different connotations and thus making ideas illegible. 
+  \item Combining the idea relations framework with causal inference. On the simple level, given the existing temporal structure of topics, we can locate concrete Granger causality and test them with historical knowledge or outside data. There are also other works exploring causal inference using texts \cite{causal1}, and it would be constructive to incorporate these ideas into ideas relations framework to allow more concrete social science knowledge to be produced.
+
+\end{enumerate}
+
+
+
+
+\section{Conclusion}
+
+We replicated the ideas relations framework and extend it to the more flexible structural topic model, and also explored new datasets with the framework. We discovered insights in AER and People's Daily that correspond to our existing knowledge, and used the latter to make a detailed comparison and evaluation between the two topic models. We also demonstrate that the framework has the potential to facilitate the discovery of new historical knowledge. 
+
+However, the explorations are interpretative in nature, and many of the topics and relations we discovered do not correspond to common knowledge, and it is difficult to distinguish whether they represent important trends in text and history, or they are just results of the randomness innate to our algorithm. It is also important to note that all discussion above should be viewed in the context of our corpus, which are just specific representations of the socio-historical trends we might be interested in.
+
